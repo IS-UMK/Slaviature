@@ -2,99 +2,72 @@
 Klawiatura Unicode dla slawistycznego alfabetu fonetycznego
 
 ### Layout_klawiatury v1.0:
-![slawiatura_layout](slawiatura_v1.0.png)
+![slawiatura_layout](pictures/slawiatura_v1.0.png)
 
 
-### Instalacja w systemach Linux
-Aby zainstalować klawiaturę wystarczy skopiować cztery pliki:
-```
--base.lst,
--evdev.lst,
--evdev.xml, 
--base.xml.
-```
+### Instalacja Slawiatury: Linux - Gnome
 
-Te pliki podmieniamy z plikami znajdującymi się w katalogu ```/usr/share/X11/xkb/rules.```
-Jeśli jednak miało się jakieś niestandardowe klawiatury zainstalowane, to zamiast zastępować pliki, należy do tych plików dopisać parę linijek w sekcjach związanych z layout'em. Wtedy nie powinniśmy stracić innych niestandardowych zainstalowanych layout'ów.
+Aby układ klawiatury działał musimy uruchomić Gnome na serwerze wyświetlania
+Xorg. Można łatwo tego dokonać.
+Na ekranie logowania użytkownika w prawym dolnym rogu znajduje się zębatka.
+Po kliknięciu na nią możemy wybrać inne wersje środowiska graficznego.
 
-Do plików base.lst oraz endev.lst dopisujemy:
-```slav            Slavistic Phonetic Alphabet```
+![example_debian](pictures/debian_example.png)
 
-Do plików zaś base.xml oraz endev.xml:
-```
-<layout>
-      <configItem>
-        <name>slav</name>
-        <!-- Keyboard indicator for Slavistic Phonetic Alphabet layouts -->
-        <shortDescription>slav</shortDescription>
-        <description>Slavistic Phonetic Alphabet - Slawiatura</description>
-        <languageList/>
-      </configItem>
-      <variantList/>
-</layout>
-```
-Plik ```slav``` umieszczamy w katalogu ```/usr/share/X11/xkb/symbols```.
-Po tym slawiatura powninna być zainstalowana w systemie Linux.
+Instalacja:
+1. Pobierz paczkę ``slav_1.0_all.deb``.
+2. W katalogu w którym znajduje się paczka otwórz terminal. Aby zrobić to szybko, użyj prawego przycisku myszy i wybierz opcje otwórz w terminalu.
+3. Użyj komendę ``sudo dpkg -i slav_1.0_all.deb``.
+4. Po wprowadzeniu hasła, paczka powinna być zainstalowana.
+5. Użyj polecenia ``sh setupShortcut.sh``,  aby ustawić skrót klawiszowy
+6. Teraz możesz korzystać z slawiatury. Aby przełączyć się między układami klawiatury, użyj skrótu ``Super + z``. 
 
-Aby z niej skorzystać wystarczy wpisać w terminalu tą komendę: ```setxkbmap slav```
+Klawisz ``Super`` na klawiaturze to najczęściej klawisz z logiem Windows'a.
+Skrót klawiszowy możesz zmienić w ustawieniach systemu.
 
-### Decyzje projektowe
-Szukając informacji jak stworzyć znaki które nie mają swojego kodu unicode zacząłem się zastanawiać jak powstają znaki złożone, bo w końcu są to złączone znaki unicode z sobą. Na wikipedii natknąłem się na ten artykuł: https://en.wikipedia.org/wiki/Combining_character.
-W nim się dowiedziałem, że istnieją specjalne znaki unicode, które służą by były łączone z innymi znakami. Nazywają się one "Combining Diacritical Marks". Okazały się one bardzo świetnym rozwiązaniem moich problemów. Ich działanie polega na tym, że jak podamy jakiś znak, a następnie diacritic mark, to on się złączy z tym znakiem tworząc znaki złożone. Podając kolejne znaki będą one się z sobą dalej łączyły. Dzięki temu można tworzyć bardzo złożone symbole, których brakuje w unicode.
-Wykorzystanie tego pozwoliło mi także zaoszczędzić sporo miejsca, dlatego mogłem dodać do klawiatury wielkie litery zgodnie z Pana życzeniem.
+Odinstalacja:
+1. Uruchom terminal.
+2. W terminalu użyj polecenia ``sh removeShortcut.sh``.
+3. Użyj polecenia ``sudo apt remove slawiatura``
+4. Po podaniu hasła i potwierdzeniu zgody na odinstalowanie pakiet z klawiaturą powinien zostać usunięty z systemu.
 
-Ułożenie powinno być intuicyjne, więc nie powinno sprawić kłopotów. Przynajmniej ja po testowaniu jej parę razy szybko się przyzwyczaiłem.
-Wszystkie znaki zostały dobrane tak, by były dopasowane do symboli na klawiaturze.
+Uwaga!!!
+Jeżeli korzystasz z systemu Debian, twój użytkownik musi mieć uprawnienia by zainstalować paczkę. Aby dodać użytkownika do grupy sudo wykonaj poniższe
+polecenia:
+1. Przełącz się na root'a używając polecenia ``su``.
+2. Po wprowadzeniu hasła użyj polecenia: ``sudo usermod -aG sudo [$user]``, gdzie ``[$user]``, to nazwa twojego użytkownika. 
+3. Przełącz się na swojego użytkownika używając ``su [$user]``.
 
-Znak związany z tyldą nad literami ~ został umieszczony tam gdzie tylda, tylko by go użyć używamy alt+shift+tyldaKey.
-Pod spodem pod altem umieściłem ʹ, który jest wykorzystywany przy niektórych znakach np. tʹ, bo przypominał mi odbicie lustrzane tego znaku `.
+### Instalacja Slawiatury: Linux - Cinnamon
 
-Pod altem przy ósemce umieściłem symbol ◌̊, który nad znakiem tworzy okrąg.
-Umieściłem ten symbol tam, bo przypominał mi ósemkę, trochę bałwana.
+Instalacja:
+1. Pobierz paczkę ``slav_1.0_all.deb``.
+2. W katalogu w którym znajduję się paczka, otwórz terminal. Można tego szybko dokonać używając prawego przycisku myszy i wybrać opcje otwórz w terminalu.
+3. Użyć polecenia ``sudo dpkg -i slav_1.0_all.deb``.
+4. Po podaniu hasła paczka oraz skrót powinny zostać zainstalowane (testowane na Linux Mint).
+5. Aby skrót zadziałał trzeba zrestartować środowisko graficzne. W Linux Mint wystarczy użyć skrótu klawiszowego ``ctrl + alt + esc``.
+6. Teraz możesz przełączyć się na slawiaturę używając skrótu ``Super + z``
 
-Przy 9 i 0  pod altem znajdują się podobne symbole. Historia tego miejsca dla nich jest taka sama. Po prostu te znaki skojarzyły mi się z tym jakby nawiasy z nad tych dwóch cyfr spadły i utworzyły te symbole.
-
-Pod altem, tam gdzie jest apostrof umieściłem, symbol który służy do tworzenia takich liter jak ś, ʒ́ itd.
-
-Na klawiszu gdzie jest średnik oraz dwukropek umieściłem symbole na wszelki wypadek. Pod altem znajduję się ogonek, by tworzyć np. ą, ę. Pod altem i shiftem znajduje się ◌̈. Te symbole jak pisałem są na wszelki wypadek, gdybym był jakiś znak, który by ich potrzebował, a ja nie miałem o nim pojęcia.
-
-Tam gdzie znajduję się przecinek na klawiaturze pod altem występuje symbol, który tworzy np. m̦.
-Przy znaku kropki jest podobna historia, pod altem może on tworzyć . pod znakiem.
-Tam gdzie jest slash, pod altem znajduję się taki symbol ◌̩  . Jest on wykorzystywany w paru znakach.
-
-Dla klawiszy B, N, M pod altem i alt + shiftem zostały zarezerwowane dla odmian litery n.
-O dziwo litera n ma sporo wersji w języku fonetycznym, a że znaki b oraz m, miały wolne sloty pod altem i altem + shiftem wykorzystałem je. Nie powinno być problemu z skojarzeniem tego. Ja się szybko przyzwyczaiłem, gdyż są w pobliżu.
-
-Tam gdzie znajduje się litera V, pod altem umieściłem symbol, który pozwala tworzyć znaki takie jak: ǯ, č itd. Powód prostu. Te symbole są do siebie bardzo podobne.
-
-Pod x wylądowała grecka litera chi, która jest wykorzystywana w alfabecie fonetycznym, a pod altem, jak w polskiej klawiaturze litera ź.
-
-Pod literą Z, pod altem umieściłem ʒ. Z początku kształtu przypomina z, a do tego jest wykorzystywana przy wymowie dz, cz, więc skojarzenia z są uzasadnione.
-
-Pod literą y, pod altem jest litera γ(gamma), która też jest wykorzystywana.
-
-Wydaje mi się, że klawiatura posiada wszystkie litery i symbole by stworzyć wszystkie znaki w alfabecie fonetycznym slawistycznym. Dla mnie wszystko wydawało się intuicyjne i bardzo szybko się przyzwyczaiłem testując klawiaturę.
-
+Odinstalcja:
+1. Otwórz terminal
+2. Wpisz polecenie ``sudo apt remove slawiatura``
+3. Po podaniu hasła paczka powinna zostać usunięta wraz z skrótem.
+4. Zrestartuj środowisko graficzne
+  
+Uwaga!!!
+Środowisko Cinnamon testowałem na systemie Linux Mint. Paczkę można zainstalować za pomocą instalatora pakietów, ale wtedy dodanie i usunięcie skrótu trzeba wykonać ręcznie jak w Gnome. Po wykonaniu tego, trzeba zresetować środowisko graficzne.
 
 ### Czcionki
-Niestety nie wszystkie czcionki są w stanie wyrenderować bardziej złożone znaki z jakich się korzysta w alfabecie fonetycznym slawistycznym. Mam na myśli znaki, które mają więcej niż jeden znak. W sensie mogą one nachodzić na siebie, lub renderować obok siebie, a nie nad znakiem lub pod nim.
 
-Pod spodem znajduje się lista czcionek domyślnie zainstalowanych(przynajmniej były na linux mint 20), które potrafią obsłużyć slawiature (nie są one idealne).
-```
--Liberation Sans
--Ubuntu Mono
--Tex Gyre Adventure
--Tex Gyre Pagella
--Noto mono
-```
-W czcionkach Tex Gyre należało by zwiększyć odstępy między wierszami, by symbole nie nachodziły na siebie. Ostatnie trzy czcionki gdy znak jest z byt wielki, wyrenderują dopiero reszte znaku jak się zapiszę plik. Czyli jak jest wielkie A, nad nim są dwie kropki, a nad nimi tylda, to ta tylda pojawi się dopiero gdy się zapiszę plik. (przynajmniej tak się działo w Linux Mint). Nie jest to uciążliwe, zwłaszcza gdy często się używa ctrl+s.
+Niestety nie wszystkie czcionki są w stanie wy renderować bardziej złożone znaki z jakich się korzysta w alfabecie fonetycznym slawistycznym.
+ 
+Czcionki które mogą tego dokonać to np. czcionka roboto.
+Aby ją zainstalować trzeba w terminalu wpisać polecenie:
+ ``sudo apt install fonts-roboto``
 
-Szukając czcionki zauważyłem, że na moim telefonie gdy patrzyłem na stronę z alfabetem fonetycznym znaki były wyświetlane prawidłowo. Zaciekawiłem się co to za czcionka. Okazało się, że to czcionka od google'a i nazywa się roboto.
-Zainstalowałem ją by to sprawdzić. I faktycznie ta czcionka, jak do tej pory najlepiej prezentuje ten alfabet.
-Przy niej także trzeba zapisywać plik, by zbyt wielkie symbole się wyświetliły, ale to nie jest problem, gdyż każdy przy swojej pracy zapisuje pliki, a wielkie litery z bardzo złożonymi znakami raczej nie są tak często używane.
-
-Czcionka roboto, wygrała dla mnie, bo znaki renderowały się tak jak chciałem i miały prawidłowy wygląd.
-Czcionkę można zainstalować wpisując komendę: ```sudo apt install fonts-roboto```
+Kolejnym przykładem czcionki, która dobrze wyświetla wszystkie znaki, jest Iosevka.
+Podaną czcionkę i instrukcję jej instalacji znajdziecie pod adresem:
+https://github.com/be5invis/Iosevka
 
 
 
