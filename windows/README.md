@@ -1,7 +1,7 @@
 # Slawiatura.exe
 Klawiatura Unicode dla slawistycznego alfabetu fonetyczne (wersja pod system Windows)
 
-##Instrukcja pobierania klawiatury
+## Instrukcja pobierania klawiatury
 1. Uruchom aplikacje setup w folderze aslav
 2. Jeśli nigdy wczęśniej nie instalował_ś jej to systeem spyta o zezwolenie na dziłanie tej aplikacji (kliknij tak)
 3. Ujrzysz okno z napisem *Installation Complete*, kliknij "close"
