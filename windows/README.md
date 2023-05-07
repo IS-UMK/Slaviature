@@ -9,6 +9,6 @@ Klawiatura Unicode dla slawistycznego alfabetu fonetyczne (wersja pod system Win
 5. Upewnij się czy masz tam do wyboru **Polski - Polski (Programisty) - Custom**. Jeśli jest to zostaw "Użyj listy języków"
 6. Uruchom ponownie komputer
 
-##wybieranie Slawiatury
+## wybieranie Slawiatury
 W prawym dolnym rogu powinien być kafelek z nazwą ostatnio używanego ustawinenia klawiatury. Kliknij na niego. Pojawi się lista klawiatur do wyboru. Wybierz **Polski (Programisty) - Custom**.
 W dowolnym momencie możesz zmienić na inną wybierając w tym kafelku inne ustawienie (Polska klawiatura to przważnie **Polski (Programistyczny)**)
