@@ -7,7 +7,8 @@ Klawiatura Unicode dla slawistycznego alfabetu fonetyczne (wersja pod system Win
 3. Ujrzysz okno z napisem *Installation Complete*, kliknij "close"
 4. Kliknij Windows->Ustawienia->Czas i język->Język->Klawiatura->Zastąp domyślną metodę wprowadzania
 5. Upewnij się czy masz tam do wyboru **Polski - Polski (Programisty) - Custom**. Jeśli jest to zostaw "Użyj listy języków"
-6. Uruchom ponownie komputer
+6. W *Przełączanie metod wprowadzania* zaznacz opcję "Zezwól na używanie różnych metod wprowadzania w oknach poszczególnych aplikacji"
+7. Uruchom ponownie komputer
 
 ## wybieranie Slawiatury
 W prawym dolnym rogu powinien być kafelek z nazwą ostatnio używanego ustawienia klawiatury. Kliknij na niego. Pojawi się lista klawiatur do wyboru. Wybierz **Polski (Programisty) - Custom**.
