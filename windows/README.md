@@ -22,9 +22,9 @@ klawiatura działająca na zasadzie aplikacji działającej w tle. Stworzona z m
 ### Jak włączyć
 wystarczy odpalić albo poprzez dwukrotne kliknięcie lewym przyciskiem myszki, albo pojedynczym prawym przyciskiem myszyki i kliknięcie opcji *Otwórz*. W pasku zadań pojawi się ikonka tej aplikacji 
 (Pasek zadań jest domyślnie w prawym dolnym rogu ekranu przy symbolach na głośność, sieci, poziomu baterii i zegara). 
-Może się zdażyć, że Windows schowa ikonę, trzeba wtedy kliknąć strzałkę *Pokaż ukryte ikony*
+Może się zdażyć, że Windows schowa ikonę, trzeba wtedy kliknąć strzałkę *Pokaż ukryte ikony*  
 ![obraz](https://github.com/IS-UMK/Slawiatura.exe/assets/73884450/183ed6a9-cc33-46e1-b995-207914c57e7a)
-
+  
 ### dostępne opcje
 Aby wejść w opcje trzeba kliknąć prawym przyciskiem myszki ikonkę w pasku zadań(lub w jego ukrytych ikonach).  
   
