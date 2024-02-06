@@ -37,6 +37,7 @@ Aby wejść w opcje trzeba kliknąć prawym przyciskiem myszki ikonkę w pasku z
 # Slawiatura_hook.exe
 test wykorzystania mechanizmu *Hooks* z **Win32 API** do zaimplementowania klawiatury. W jej ramach jest zmienione działanie klawiszy "A", klawisz do wpowadzania domyślnie apostrofa oraz spacja.
 Aby ją przetestować należy zainstalować Visual Studio 2022, w nim wybrać plik "Slawiatura_hook.snl". Następnie kliknąć zieloną strzałkę na górnej części okna:
+
 ![obraz](https://github.com/IS-UMK/Slawiatura.exe/assets/73884450/aded2c3d-b66b-49cb-9bb0-e6f75ac5c1d8)
 
 ---
