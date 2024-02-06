@@ -17,7 +17,7 @@ W dowolnym momencie możesz zmienić na inną wybierając w tym kafelku inne ust
 ---
   
 # Slawiatura_AHK.exe
-klawiatura działająca na zasadzie aplikacji działającej w tle. Stworzona z myślą posiadania wybranej klawiatury **Polski (Programisty)**, domyślna w Windows z polskim językiem.
+klawiatura działająca na zasadzie aplikacji w tle. Stworzona z myślą posiadania wybranej klawiatury **Polski (Programisty)**, domyślna w Windows z polskim językiem.
 
 ### Jak włączyć
 wystarczy odpalić albo poprzez dwukrotne kliknięcie lewym przyciskiem myszki, albo pojedynczym prawym przyciskiem myszyki i kliknięcie opcji *Otwórz*. W pasku zadań pojawi się ikonka tej aplikacji 
@@ -32,3 +32,12 @@ Aby wejść w opcje trzeba kliknąć prawym przyciskiem myszki ikonkę w pasku z
 **Pause Script** - opcja utworzona automatycznie przez kompilator AHK, nie ma wpływu na działanie Slawiatura_AHK. Proszę się nią nie przejmować  
 **Exit** - kończy działanie aplikacji w tle
 
+---
+
+# Slawiatura_hook.exe
+test wykorzystania mechanizmu *Hooks* z **Win32 API** do zaimplementowania klawiatury. W jej ramach jest zmienione działanie klawiszy "A", klawisz do wpowadzania domyślnie apostrofa oraz spacja.
+Aby ją przetestować należy zainstalować Visual Studio 2022, w nim wybrać plik "Slawiatura_hook.snl". Następnie kliknąć zieloną strzałkę na górnej części okna:
+![obraz](https://github.com/IS-UMK/Slawiatura.exe/assets/73884450/aded2c3d-b66b-49cb-9bb0-e6f75ac5c1d8)
+
+---
+W przypdaku problemu z korzystaniem klawaitury możliwa jest potrzeba skorzystania z innej czcionki. Przykładaowymi działającymi z wszystkimi znakami slawistycznego alfabetu fonetycznego jest **Roboto** oraz **Doulos SIL**.
