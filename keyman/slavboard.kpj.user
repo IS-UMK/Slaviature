@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <ViewState>
+    <tab>0</tab>
+    <showhelp>1</showhelp>
+    <path>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\slavboard.kpj</path>
+  </ViewState>
+  <FileStates>
+    <FileState>
+      <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\HISTORY.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\LICENSE.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\README.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_627bba8075416dcb8194a869a4edb483</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\slavboard.keyboard_info</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_303089674bf8eaa59d180a1e405f2aaa</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\slavboard.kpj</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_e2dbfd257d7542bad71d30ea0c52c75f</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\slavboard.kpj.user</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\readme.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_103077495ca54c36eccebb5886f7b18c</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\slavboard.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_5a573bc16a41c1e04df75499fff758ea</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\slavboard.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8c647d9fafc46695d8163603b5ea06d0</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\slavboard.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_b650321af24e98f6ddd8c22894e953c1</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\slavboard.kps</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_bdc27d6751a794b601dc3cb0319e280c</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\slavboard.kvks</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\welcome.htm</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_c8fdf077df8876fbdc9df7aac72466c6</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\..\build\slavboard.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_cab0fbcbc54e347ce1eb6d7dfd927a33</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\..\build\slavboard.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_4077aff8f0b54326992f04884a5edeb2</ID>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\..\build\slavboard.kvk</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>welcome.htm</Filename>
+      <FileType>.htm</FileType>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\welcome.htm</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>slavboard.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\slavboard.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>README.md</Filename>
+      <FileType>.md</FileType>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\README.md</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU3</ID>
+      <Filename>LICENSE.md</Filename>
+      <FileType>.md</FileType>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\LICENSE.md</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
+      <Filename>HISTORY.md</Filename>
+      <FileType>.md</FileType>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\HISTORY.md</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU5</ID>
+      <Filename>slavboard.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\slavboard.kps</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>
