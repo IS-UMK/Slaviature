@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KeymanDeveloperProjectUser>
   <ViewState>
-    <tab>0</tab>
+    <tab>1</tab>
     <showhelp>1</showhelp>
     <path>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\slavboard.kpj</path>
   </ViewState>
@@ -86,15 +86,15 @@
   <MRU>
     <File>
       <ID>id_MRU0</ID>
-      <Filename>welcome.htm</Filename>
-      <FileType>.htm</FileType>
-      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\welcome.htm</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU1</ID>
       <Filename>slavboard.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\slavboard.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>welcome.htm</Filename>
+      <FileType>.htm</FileType>
+      <FullPath>C:\Users\rb723\Documents\Keyman Developer\Projects\slavboard\source\welcome.htm</FullPath>
     </File>
     <File>
       <ID>id_MRU2</ID>
