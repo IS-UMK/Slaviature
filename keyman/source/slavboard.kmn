@@ -15,9 +15,10 @@ store(&TARGETS) 'windows macosx linux iphone ipad androidphone androidtablet mob
 begin Unicode > use(main)
 
 group(main) using keys
++ [CTRL ALT K_X] > 'χ'
 + [ALT K_8] > '̊'
 + [CTRL ALT K_BKQUOTE] > '̃'
-+ [ALT K_BKQUOTE] > 'ˊ'
++ [ALT K_BKQUOTE] > 'ʹ'
 + [ALT K_9] > '̯'
 + [ALT K_0] > '̮'
 + [CTRL ALT K_COLON] > '̈'
