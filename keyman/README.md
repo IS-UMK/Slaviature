@@ -1,14 +1,11 @@
-SlavBoard keyboard
+Slavboard
 ==============
-
+Author: Rafał Brudziński
 Version 1.0
 
 Description
 -----------
-SlavBoard generated from template
-
-Links
------
+The keyboard implements characters and diacritics appears in slavic phonetic languages.
 
 Copyright
 ---------
@@ -19,7 +16,6 @@ Supported Platforms
  * Windows
  * macOS
  * Linux
- * Web
  * iPhone
  * iPad
  * Android phone
