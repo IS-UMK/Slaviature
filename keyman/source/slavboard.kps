@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>16.0.147.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>17.0.332.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
     <ExecuteProgram></ExecuteProgram>
     <ReadMeFile>readme.htm</ReadMeFile>
+    <WelcomeFile>welcome.htm</WelcomeFile>
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
     <FollowKeyboardVersion/>
@@ -17,8 +18,8 @@
   </StartMenu>
   <Info>
     <Name URL="">SlavBoard</Name>
-    <Copyright URL="">© Rbr</Copyright>
-    <Author URL=""></Author>
+    <Copyright URL="">© MIT 2025</Copyright>
+    <Author URL="">Rafał Brudziński</Author>
     <Version URL=""></Version>
   </Info>
   <Files>
