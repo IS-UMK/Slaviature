@@ -1,14 +1,11 @@
-SlavBoard keyboard
+Slavboard keyboard
 ==============
 
 Version 1.0
 
 Description
 -----------
-SlavBoard generated from template
-
-Links
------
+The keyboard implements IPA characters and diacritics appears in slavic phonetic alphabet
 
 Copyright
 ---------
@@ -19,7 +16,6 @@ Supported Platforms
  * Windows
  * macOS
  * Linux
- * Web
  * iPhone
  * iPad
  * Android phone
