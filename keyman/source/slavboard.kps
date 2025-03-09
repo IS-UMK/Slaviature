@@ -17,7 +17,7 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Name URL="">SlavBoard</Name>
+    <Name URL="">Slavboard</Name>
     <Copyright URL="">© MIT 2025</Copyright>
     <Author URL="">Rafał Brudziński</Author>
     <Version URL=""></Version>
@@ -53,10 +53,16 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.htm</FileType>
     </File>
+    <File>
+      <Name>..\Roboto.ttf</Name>
+      <Description>Font Roboto Regular</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>SlavBoard</Name>
+      <Name>Slavboard</Name>
       <ID>slavboard</ID>
       <Version>1.0</Version>
       <Languages>
