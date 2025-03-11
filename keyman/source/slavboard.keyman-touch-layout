@@ -1661,7 +1661,7 @@
         ]
       }
     ],
-    "font": "Roboto",
+    "font": "Doulos SIL",
     "fontsize": ""
   },
   "phone": {
@@ -3328,7 +3328,7 @@
         ]
       }
     ],
-    "font": "Roboto",
+    "font": "Doulos SIL",
     "fontsize": ""
   }
 }

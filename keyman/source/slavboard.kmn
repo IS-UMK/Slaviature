@@ -1,14 +1,11 @@
-﻿c slavboard generated from template at 2024-04-23 22:18:15
-c with name "Slavboard"
-store(&VERSION) '10.0'
+﻿store(&VERSION) '10.0'
 store(&NAME) 'Slavboard'
 store(&COPYRIGHT) '© Rafał Brudziński'
 store(&KEYBOARDVERSION) '1.0'
 store(&BITMAP) 'slavboard.ico'
 store(&VISUALKEYBOARD) 'slavboard.kvks'
 store(&LAYOUTFILE) 'slavboard.keyman-touch-layout'
-store("Roboto.ttf")
-
+store("Doulos SIL") "Doulos"
 store(&TARGETS) 'windows macosx linux iphone ipad androidphone androidtablet mobile desktop tablet'
 
 begin Unicode > use(main)

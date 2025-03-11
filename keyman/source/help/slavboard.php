@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slavboard Keyboard (ver. 1.0)</title>
-    <style type="text/css">
+<?php
+    $pagename = 'Slavboard Keyboard Help';
+    $pagetitle = $pagename;
+    $pagestyle = <<<END
         body {
             font-family: 'Times New Roman', Times, serif, sans-serif;
             margin: 20px;
@@ -35,11 +32,11 @@
             font-size: 0.9em;
             color: #888;
         }
-    </style>
-</head>
-<body>
+    END;
+    require_once('header.php');
+?>
+ 
     <h1>Slavboard Keyboard (ver. 1.0)</h1>
-    <p> Thank you for using my keyboard</p>
     
     <h2>Vowels</h2>
     <table>
@@ -796,5 +793,5 @@
         </a>
     under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International Public License</a>.
     </p>
-</body>
-</html>
+
+ 
