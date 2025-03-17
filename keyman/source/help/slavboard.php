@@ -1,11 +1,12 @@
 <?php
     $pagename = 'Slavboard Keyboard Help';
     $pagetitle = $pagename;
+    require_once('header.php');
     $pagestyle = <<<END
-        body {
-            font-family: 'Times New Roman', Times, serif, sans-serif;
+         body {
+            font-family: 'Times New Roman', Times, serif, 'DoulosSILRegular';
             margin: 20px;
-            font-size: large;
+            font-size: 18px;
         }
         h1 {
             text-align: center;
@@ -33,9 +34,9 @@
             color: #888;
         }
     END;
-    require_once('header.php');
+
 ?>
- 
+
     <h1>Slavboard Keyboard (ver. 1.0)</h1>
     
     <h2>Vowels</h2>
@@ -84,6 +85,12 @@
                 <td>Alt + e</td>
                 <td>U+0117</td>
                 <td>Latin small letter E with dot above</td>
+            </tr>
+            <tr>
+                <td>ẽ</td>
+                <td>e, Ctrl + Alt + `</td>
+                <td>U+1EBD</td>
+                <td>Latin small letter E with tilde</td>
             </tr>
             <tr>
                 <td>ė̃</td>
@@ -193,13 +200,13 @@
                 <td>bˊ</td>
                 <td>b, Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter B with combining acute accent</td>
+                <td>Latin small letter B with prime</td>
             </tr>
             <tr>
                 <td>pˊ</td>
                 <td>p, Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter P with combining acute accent</td>
+                <td>Latin small letter P with prime</td>
             </tr>
             <tr>
                 <td>d</td>
@@ -217,13 +224,13 @@
                 <td>dˊ</td>
                 <td>d, Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter D with combining acute accent</td>
+                <td>Latin small letter D with prime</td>
             </tr>
             <tr>
                 <td>tˊ</td>
                 <td>t, Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter T with combining acute accent</td>
+                <td>Latin small letter T with primet</td>
             </tr>
             <tr>
                 <td>ḍ</td>
@@ -238,13 +245,13 @@
                 <td>Latin small letter T with dot below</td>
             </tr>
             <tr>
-                <td>gˊ</td>
+                <td>ǵ</td>
                 <td>g, Alt + `</td>
                 <td>U+01F5</td>
                 <td>Latin small letter G with combining acute accent</td>
             </tr>
             <tr>
-                <td>kˊ</td>
+                <td>ḱ</td>
                 <td>k, Alt + `</td>
                 <td>-</td>
                 <td>Latin small letter K with combining acute accent</td>
@@ -291,13 +298,13 @@
             <td>ʒˊ</td>
             <td>Alt + z, Alt + `</td>
             <td>-</td>
-            <td>Latin small letter Ezh with combining acute accent</td>
+            <td>Latin small letter Ezh with primet</td>
           </tr>
           <tr>
             <td>cˊ</td>
             <td>c, Alt + `</td>
             <td>-</td>
-            <td>Latin small letter C with combining acute accent</td>
+            <td>Latin small letter C with prime</td>
           </tr>
           <tr>
             <td>ǯ</td>
@@ -315,13 +322,13 @@
             <td>ǯˊ</td>
             <td>Alt + z, Alt + v, Alt + `</td>
             <td>-</td>
-            <td>Latin small letter Ezh with caron and combining acute accent</td>
+            <td>Latin small letter Ezh with caron and prime</td>
           </tr>
           <tr>
             <td>čˊ</td>
             <td>Alt + c, Alt + v, Alt + `</td>
             <td>-</td>
-            <td>Latin small letter C with caron and combining acute accent</td>
+            <td>Latin small letter C with caron and prime</td>
           </tr>
           <tr>
             <td>ʒ́</td>
@@ -389,13 +396,13 @@
                 <td>zˊ</td>
                 <td>z, Alt + ˊ</td>
                 <td>-</td>
-                <td>Latin small letter Z with combining acute accent</td>
+                <td>Latin small letter Z with prime</td>
             </tr>
             <tr>
                 <td>sˊ</td>
                 <td>s, Alt + ˊ</td>
                 <td>-</td>
-                <td>Latin small letter S with combining acute accent</td>
+                <td>Latin small letter S with prime</td>
             </tr>
             <tr>
                 <td>ž</td>
@@ -413,13 +420,13 @@
                 <td>žˊ</td>
                 <td>z, Alt + v, Alt + ˊ</td>
                 <td>-</td>
-                <td>Latin small letter Z with caron and combining acute accent</td>
+                <td>Latin small letter Z with caron and prime</td>
             </tr>
             <tr>
                 <td>šˊ</td>
                 <td>s, Alt + v, Alt + ˊ</td>
                 <td>-</td>
-                <td>Latin small letter S with caron and combining acute accent</td>
+                <td>Latin small letter S with caron and prime</td>
             </tr>
             <tr>
                 <td>ź</td>
@@ -449,13 +456,13 @@
                 <td>γˊ</td>
                 <td>Alt + y, Alt + ˊ</td>
                 <td>-</td>
-                <td>Greek small letter Gamma with combining acute accent</td>
+                <td>Greek small letter Gamma with prime</td>
             </tr>
             <tr>
                 <td>χˊ</td>
                 <td>Ctrl + Alt + x, Alt + ˊ</td>
                 <td>-</td>
-                <td>Greek small letter Chi with combining acute accent</td>
+                <td>Greek small letter Chi with prime</td>
             </tr>
         </tbody>
     </table>
@@ -487,13 +494,13 @@
                 <td>mˊ</td>
                 <td>m, Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter M with combining acute accent</td>
+                <td>Latin small letter M with prime</td>
             </tr>
             <tr>
                 <td>m̦ˊ</td>
                 <td>m, Alt + , ; Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter M with comma below combining acute accent</td>
+                <td>Latin small letter M with comma below and prime</td>
             </tr>
             <tr>
                 <td>n</td>
@@ -511,7 +518,7 @@
                 <td>nˊ</td>
                 <td>n, Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter N with combining acute accent</td>
+                <td>Latin small letter N with prime</td>
             </tr>
             <tr>
                 <td>ṇ</td>
@@ -535,7 +542,7 @@
                 <td>ń̦</td>
                 <td>Alt + n, Alt + ,</td>
                 <td>-</td>
-                <td>Latin small letter N with acute and comma below</td>
+                <td>Latin small letter N with combining acute accent and comma below</td>
             </tr>
             <tr>
                 <td>ŋ</td>
@@ -547,7 +554,7 @@
                 <td>ŋˊ</td>
                 <td>Alt + m, Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter Eng with combining acute accent</td>
+                <td>Latin small letter Eng with prime</td>
             </tr>
             <tr>
                 <td>ŋ̩</td>
@@ -559,7 +566,7 @@
                 <td>ŋ̩ʹ</td>
                 <td>Alt + m, Alt + /, Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter Eng with vertical line below and combining acute accent</td>
+                <td>Latin small letter Eng with vertical line below and prime</td>
             </tr>
         </tbody>
     </table>
@@ -591,13 +598,13 @@
                 <td>rˊ</td>
                 <td>r, Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter R with combining acute accent</td>
+                <td>Latin small letter R with prime</td>
             </tr>
             <tr>
                 <td>r̦ˊ</td>
                 <td>r, Alt + , ; Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter R with comma below and combining acute accent</td>
+                <td>Latin small letter R with comma below and prime</td>
             </tr>
         </tbody>
     </table>
@@ -629,13 +636,13 @@
                 <td>lˊ</td>
                 <td>l, Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter L with combining acute accent</td>
+                <td>Latin small letter L with combining prime</td>
             </tr>
             <tr>
                 <td>l̦ˊ</td>
                 <td>l, Alt + , ; Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter L with comma below and combining acute accent</td>
+                <td>Latin small letter L with comma below and prime</td>
             </tr>
         </tbody>
     </table>
@@ -731,7 +738,7 @@
                 <td>ʹ</td>
                 <td>Alt + `</td>
                 <td>U+02B9</td>
-                <td>Modifier Letter Apostrophe (Acute)</td>
+                <td>Modifier Letter Prime</td>
             </tr>
             <tr>
                 <td>̌</td>
@@ -793,5 +800,3 @@
         </a>
     under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International Public License</a>.
     </p>
-
- 
