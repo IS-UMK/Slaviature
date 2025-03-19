@@ -298,7 +298,7 @@
             <td>ʒˊ</td>
             <td>Alt + z, Alt + `</td>
             <td>-</td>
-            <td>Latin small letter Ezh with primet</td>
+            <td>Latin small letter Ezh with prime</td>
           </tr>
           <tr>
             <td>cˊ</td>
@@ -334,13 +334,13 @@
             <td>ʒ́</td>
             <td>Alt + z, Alt + ‘</td>
             <td>-</td>
-            <td>Latin small letter Ezh with acute</td>
+            <td>Latin small letter Ezh with combining acute accent</td>
           </tr>
           <tr>
             <td>ć</td>
             <td>c, Alt + ‘</td>
             <td>U+0107</td>
-            <td>Latin small letter C with acute</td>
+            <td>Latin small letter C combining acute accent</td>
           </tr>
         </tbody>
     </table>
@@ -372,13 +372,13 @@
                 <td>vˊ</td>
                 <td>v, Alt + ˊ</td>
                 <td>-</td>
-                <td>Latin small letter V with acute</td>
+                <td>Latin small letter V with prime</td>
             </tr>
             <tr>
                 <td>fˊ</td>
                 <td>f, Alt + ˊ</td>
                 <td>-</td>
-                <td>Latin small letter F with acute</td>
+                <td>Latin small letter F with prime</td>
             </tr>
             <tr>
                 <td>z</td>
@@ -432,13 +432,13 @@
                 <td>ź</td>
                 <td>Alt + x</td>
                 <td>U+017A</td>
-                <td>Latin small letter Z with acute</td>
+                <td>Latin small letter Z with combining acute accent</td>
             </tr>
             <tr>
                 <td>ś</td>
                 <td>Alt + s</td>
                 <td>U+015B</td>
-                <td>Latin small letter S with acute</td>
+                <td>Latin small letter S with combining acute accent</td>
             </tr>
             <tr>
                 <td>γ</td>
@@ -636,7 +636,7 @@
                 <td>lˊ</td>
                 <td>l, Alt + `</td>
                 <td>-</td>
-                <td>Latin small letter L with combining prime</td>
+                <td>Latin small letter L with prime</td>
             </tr>
             <tr>
                 <td>l̦ˊ</td>
@@ -774,7 +774,7 @@
                 <td>̮</td>
                 <td>Alt + 0</td>
                 <td>U+034E</td>
-                <td>Combining Right Half Ring</td>
+                <td>Combining Breve Below</td>
             </tr>
             <tr>
                 <td>̈</td>
