@@ -66,6 +66,7 @@ c REGULAR KEYS
 
 c ALT KEYS
 + [ALT K_BKQUOTE] > 'ʹ'
++ [ALT K_5] > '€'
 + [ALT K_8] > '̊'
 + [ALT K_9] > '̯'
 + [ALT K_0] > '̮'
@@ -151,6 +152,8 @@ c SHIFT KEYS
 + [SHIFT K_SLASH] > '?'
 
 c SHIFT ALT KEYS
++ [SHIFT ALT K_BKQUOTE] > '̃'
+
 + [SHIFT ALT K_E] > 'Ė'
 + [SHIFT ALT K_R] > 'Ŗ'
 + [SHIFT ALT K_T] > 'Ț'
@@ -165,6 +168,7 @@ c SHIFT ALT KEYS
 + [SHIFT ALT K_G] > 'Ǵ'
 + [SHIFT ALT K_K] > 'Ḱ'
 + [SHIFT ALT K_L] > 'Ļ'
++ [SHIFT ALT K_COLON] > '̈'
 
 + [SHIFT ALT K_Z] > 'Ʒ'
 + [SHIFT ALT K_X] > 'Ź'
@@ -174,9 +178,6 @@ c SHIFT ALT KEYS
 + [SHIFT ALT K_M] > 'Ŋ'
 
 c CTRL ALT KEYS
-+ [CTRL ALT K_BKQUOTE] > '̃'
-+ [CTRL ALT K_5] > '€'
-+ [CTRL ALT K_COLON] > '̈'
 + [CTRL ALT K_X] > 'χ'
 
 
