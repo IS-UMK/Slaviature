@@ -1,4 +1,4 @@
-Slaviatura keyboard
+Slaviature keyboard
 ==============
 
 Description
