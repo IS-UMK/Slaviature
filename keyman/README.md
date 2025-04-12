@@ -7,7 +7,7 @@ The keyboard for slavistic phonetic alphabet.
 
 Links
 -----
-Keyboard Homepage: https://keyman.com/keyboards/slaviatura
+Keyboard Homepage: https://keyman.com/keyboards/slaviature
 
 Copyright
 ---------
