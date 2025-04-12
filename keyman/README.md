@@ -1,9 +1,9 @@
-Slaviature keyboard
+Slaviature
 ==============
 
 Description
 -----------
-The keyboard for slavistic phonetic alphabet.
+The keyboard for Slavistic Phonetic Alphabet.
 
 Links
 -----
