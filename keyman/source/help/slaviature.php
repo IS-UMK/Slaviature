@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/doulos" type="text/css"/>
-    <title>Slaviature Keyboard (ver. 1.0)</title>
-    <style type="text/css">
-        body {
+<?php
+    $pagename = 'Slaviature Keyboard Help';
+    $pagetitle = $pagename;
+    require_once('header.php');
+    $pagestyle = <<<END
+         body {
             font-family: 'Times New Roman', Times, serif, 'DoulosSILRegular';
             margin: 20px;
             font-size: 18px;
@@ -36,9 +33,10 @@
             font-size: 0.9em;
             color: #888;
         }
-    </style>
-</head>
-<body>
+    END;
+
+?>
+
     <h1>Slaviature Keyboard (ver. 1.0)</h1>
     
     <h2>Vowels</h2>
@@ -802,5 +800,3 @@
         </a>
     under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International Public License</a>.
     </p>
-</body>
-</html>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>17.0.335.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile>readme.htm</ReadMeFile>
+    <LicenseFile>..\LICENSE.md</LicenseFile>
+    <WelcomeFile>welcome.htm</WelcomeFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Name URL="">slaviature</Name>
+    <Copyright URL="">© Rafał Brudziński</Copyright>
+    <Author URL="">Rafał Brudziński</Author>
+    <Description URL="">The keyboard for slavistic phonetic alphabet.</Description>
+    <Version URL=""></Version>
+  </Info>
+  <Files>
+    <File>
+      <Name>welcome.htm</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>..\LICENSE.md</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.md</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\..\..\Desktop\DoulosSIL-6.200\DoulosSIL-Regular.ttf</Name>
+      <Description>Font Doulos SIL</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\..\..\Desktop\DoulosSIL-6.200\FONTLOG.txt</Name>
+      <Description>File FONTLOG.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\..\..\Desktop\DoulosSIL-6.200\OFL.txt</Name>
+      <Description>File OFL.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\..\..\Desktop\DoulosSIL-6.200\OFL-FAQ.txt</Name>
+      <Description>File OFL-FAQ.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\..\..\Desktop\DoulosSIL-6.200\README.txt</Name>
+      <Description>File README.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\build\slaviature.js</Name>
+      <Description>File slaviature.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>..\build\slaviature.kvk</Name>
+      <Description>File slaviature.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>..\build\slaviature.kmx</Name>
+      <Description>Keyboard Slaviature</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Slaviature</Name>
+      <ID>slaviature</ID>
+      <Version>1.0</Version>
+      <OSKFont>..\..\..\..\..\Desktop\DoulosSIL-6.200\DoulosSIL-Regular.ttf</OSKFont>
+      <DisplayFont>..\..\..\..\..\Desktop\DoulosSIL-6.200\DoulosSIL-Regular.ttf</DisplayFont>
+      <Languages>
+        <Language ID="sla-Latn">Slavic phonetics</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>

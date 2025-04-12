@@ -1,11 +1,13 @@
-Slavboard keyboard
+Slaviatura keyboard
 ==============
-
-Version 1.0
 
 Description
 -----------
-The keyboard implements IPA characters and diacritics appears in slavic phonetic alphabet
+The keyboard for slavistic phonetic alphabet.
+
+Links
+-----
+Keyboard Homepage: https://keyman.com/keyboards/slaviatura
 
 Copyright
 ---------

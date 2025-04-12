@@ -1,6 +1,6 @@
-SlavBoard Change History
+Slaviatura Change History
 ====================
 
-1.0 (2024-04-23)
+1.0 (2025-04-08)
 ----------------
-* Created by 
+* Created by Rafał Brudziński
