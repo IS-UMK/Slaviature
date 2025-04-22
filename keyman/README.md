@@ -3,7 +3,7 @@ Slaviature
 
 Description
 -----------
-The keyboard for Slavistic Phonetic Alphabet.
+The Unicode keyboard for Slavistic Phonetic Alphabet.
 
 Links
 -----
