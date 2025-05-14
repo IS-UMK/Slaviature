@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>17.0.335.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>18.0.235.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
@@ -44,36 +44,6 @@
       <FileType>.md</FileType>
     </File>
     <File>
-      <Name>..\..\..\..\..\Desktop\DoulosSIL-6.200\DoulosSIL-Regular.ttf</Name>
-      <Description>Font Doulos SIL</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.ttf</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\..\Desktop\DoulosSIL-6.200\FONTLOG.txt</Name>
-      <Description>File FONTLOG.txt</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.txt</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\..\Desktop\DoulosSIL-6.200\OFL.txt</Name>
-      <Description>File OFL.txt</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.txt</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\..\Desktop\DoulosSIL-6.200\OFL-FAQ.txt</Name>
-      <Description>File OFL-FAQ.txt</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.txt</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\..\Desktop\DoulosSIL-6.200\README.txt</Name>
-      <Description>File README.txt</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.txt</FileType>
-    </File>
-    <File>
       <Name>..\build\slaviature.js</Name>
       <Description>File slaviature.js</Description>
       <CopyLocation>0</CopyLocation>
@@ -91,14 +61,40 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.kmx</FileType>
     </File>
+    <File>
+      <Name>..\..\..\shared\fonts\sil\doulos\DoulosSIL-Regular.ttf</Name>
+      <Description>Font Doulos SIL</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\shared\fonts\sil\doulos\FONTLOG.txt</Name>
+      <Description>File FONTLOG.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\shared\fonts\sil\doulos\OFL.txt</Name>
+      <Description>File OFL.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\shared\fonts\sil\doulos\OFL-FAQ.txt</Name>
+      <Description>File OFL-FAQ.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\shared\fonts\sil\doulos\README.txt</Name>
+      <Description>File README.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>Slaviature</Name>
       <ID>slaviature</ID>
-      <Version>1.0</Version>
-      <OSKFont>..\..\..\..\..\Desktop\DoulosSIL-6.200\DoulosSIL-Regular.ttf</OSKFont>
-      <DisplayFont>..\..\..\..\..\Desktop\DoulosSIL-6.200\DoulosSIL-Regular.ttf</DisplayFont>
       <Languages>
         <Language ID="sla-Latn">Slavic phonetics</Language>
       </Languages>
