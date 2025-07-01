@@ -1,5 +1,5 @@
 ﻿#Requires AutoHotkey v2.0
-; zakladam, ze bedzie w tle wlaczna polska klawiatura programisty
+; it is required that the Polish programmer's keyboard is running in the background
 <^>!+`::SendInput Chr(0x303)    ; + Shift, Combining Tilde ◌̃
 <^>!`::SendInput Chr(0xB4)      ; <^>! Altgr, ´
 
