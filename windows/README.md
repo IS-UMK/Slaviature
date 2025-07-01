@@ -1,6 +1,9 @@
 
 # About Slaviature — Windows (AutoHotkey)
 
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README.md)
+[![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README_pl.md)
+
 **Slaviature.exe** is a background application keyboard layout designed to work
 alongside the default Windows layout **Polish (Programmers)**. It enables easy
 typing of the Slavic Phonetic Alphabet characters without changing the system
