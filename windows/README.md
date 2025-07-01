@@ -1,44 +1,42 @@
-# Slawiatura.exe
-Klawiatura Unicode dla slawistycznego alfabetu fonetyczne (wersja pod system Windows)
 
-## Instrukcja pobierania klawiatury
-1. Uruchom aplikacje **setup** w folderze aslav
-2. Jeśli nigdy wczęśniej jej nie instalowano to system spyta o zezwolenie na działanie tej aplikacji (kliknij tak)
-3. Ujrzysz okno z napisem *Installation Complete*, kliknij "close"
-4. Kliknij Windows->Ustawienia->Czas i język->Język->Klawiatura->Zastąp domyślną metodę wprowadzania
-5. Pod *Zastąp domyślną metodę wprowadzania* jest lista rozwijana. Upewnij się czy masz tam do wyboru **Polski - Polski (Programisty) - AS**. Jeśli jest to zostaw "Użyj listy języków"
-6. W *Przełączanie metod wprowadzania* zaznacz opcję "Zezwól na używanie różnych metod wprowadzania w oknach poszczególnych aplikacji"
-7. Uruchom ponownie komputer
+# About Slaviature — Windows (AutoHotkey)
 
-## wybieranie Slawiatury
-W prawym dolnym rogu powinien być kafelek z nazwą ostatnio używanego ustawienia klawiatury. Kliknij na niego. Pojawi się lista klawiatur do wyboru. Wybierz **Polski (Programisty) - AS**.
-W dowolnym momencie możesz zmienić na inną wybierając w tym kafelku inne ustawienie (Polska klawiatura to przważnie **Polski (Programistyczny)**)
+**Slaviature.exe** is a background application keyboard layout designed to work
+alongside the default Windows layout **Polish (Programmers)**. It enables easy
+typing of the Slavic Phonetic Alphabet characters without changing the system
+keyboard layout.
 
----
-  
-# Slawiatura_AHK.exe
-klawiatura działająca na zasadzie aplikacji w tle. Stworzona z myślą posiadania wybranej klawiatury **Polski (Programisty)**, domyślna w Windows z polskim językiem.
+## How to start
 
-### Jak włączyć
-wystarczy odpalić albo poprzez dwukrotne kliknięcie lewym przyciskiem myszki, albo pojedynczym prawym przyciskiem myszyki i kliknięcie opcji *Otwórz*. W pasku zadań pojawi się ikonka tej aplikacji 
-(Pasek zadań jest domyślnie w prawym dolnym rogu ekranu przy symbolach na głośność, sieci, poziomu baterii i zegara). 
-Może się zdażyć, że Windows schowa ikonę, trzeba wtedy kliknąć strzałkę *Pokaż ukryte ikony*  
-![obraz](https://github.com/IS-UMK/Slawiatura.exe/assets/73884450/183ed6a9-cc33-46e1-b995-207914c57e7a)
-  
-### dostępne opcje
-Aby wejść w opcje trzeba kliknąć prawym przyciskiem myszki ikonkę w pasku zadań(lub w jego ukrytych ikonach).  
-  
-**Suspend Hotkeys** - zawiesza działanie aplikacji; umożliwia wpisywanie polskich znaków bez potrzeby wyłączania Slawiatura_AHK  
-**Pause Script** - opcja utworzona automatycznie przez kompilator AHK, nie ma wpływu na działanie Slawiatura_AHK. Proszę się nią nie przejmować  
-**Exit** - kończy działanie aplikacji w tle
+1. Launch **Slaviature.exe** by:
+   - Double-clicking the left mouse button
+   - Or right-clicking once and selecting **Open**
 
----
+2. After launching, the application icon will appear in the taskbar. The taskbar
+   is usually located in the lower right corner of the screen, near the volume,
+   network, battery, and clock icons.
 
-# Slawiatura_hook.exe
-test wykorzystania mechanizmu *Hooks* z **Win32 API** do zaimplementowania klawiatury. W jej ramach jest zmienione działanie klawiszy "A", klawisz do wpowadzania domyślnie apostrofa oraz spacja.
-Aby ją przetestować należy zainstalować Visual Studio 2022, w nim wybrać plik "Slawiatura_hook.snl". Następnie kliknąć zieloną strzałkę na górnej części okna:
+3. If Windows hides the icon, click the **Show hidden icons** arrow:
 
-![obraz](https://github.com/IS-UMK/Slawiatura.exe/assets/73884450/aded2c3d-b66b-49cb-9bb0-e6f75ac5c1d8)
+## Available options
 
----
-W przypdaku problemu z korzystaniem klawaitury możliwa jest potrzeba skorzystania z innej czcionki. Przykładaowymi działającymi z wszystkimi znakami slawistycznego alfabetu fonetycznego jest **Roboto** oraz **Doulos SIL**.
+To access options:
+
+- Right-click the application icon in the taskbar (or in the hidden icons area).
+
+Options available:
+
+- **Suspend Hotkeys** — suspends the application, allowing you to type Polish system characters without turning off Slaviature.
+- **Pause Script** — an option automatically created by the AutoHotkey compiler; it does not affect Slaviature operation and can be ignored.
+- **Exit** — terminates the background application.
+
+## How to compile your own EXE
+
+1. Download and install [AutoHotkey](https://www.autohotkey.com/).
+2. Right-click on the `Slaviature.ahk` script and select **Compile Script**.
+3. This will create `Slaviature.exe` which runs identically to the provided version.
+
+## Folder contents
+
+- `Slaviature.ahk` — AutoHotkey script defining the keyboard layout.
+- `Slaviature.exe` — compiled background application executable.
