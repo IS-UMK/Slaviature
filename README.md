@@ -1,4 +1,4 @@
-# Slaviature
+# Slaviature (pl. *Slawiatura*)
 
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/IS-UMK/Slaviature/blob/master/README.md)
 [![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/IS-UMK/Slaviature/blob/master/README_pl.md)
@@ -7,9 +7,30 @@
 
 ![slaviature](slaviature.png)
 
+Each key can have up to four different characters assigned, arranged
+symbolically in the corners of the key:
+
+- Lower left corner — the default character, entered by pressing the key alone.
+- Upper left corner — available with `Shift`, usually producing an uppercase
+  version of the character shown on the key.
+- Lower right corner — available with the right `Alt` key (sometimes labeled as
+  AltGr).
+- Upper right corner — available with `Shift` and the right `Alt` key.
+
+For example, to type **ä**, press the right `Alt` and `a`. In the documentation,
+this is written as `Alt + a`.
+
+To enter a more complex symbol, such as **ã**, first press `a`, then ``Shift + Alt + ` ``
+. In the documentation, this is written as ``a, Shift + Alt + ` ``. For an even more
+complex symbol **ä̃**  – ``Alt a, Shift + Alt + ` ``. 
+
+The second and third symbols use a diacritic character available on the key with
+the ` symbol in the upper-right corner. Slaviature provides eleven diacritic
+characters that can be used to compose more complex symbols.
+
 ![slaviature_docs.png](slaviature_docs.png)
 
-For more examples of keystrokes, see the file: [SlaviatureDocs.pdf](keyman/extras/SlaviatureDocs.pdf)
+The full list of keyboard combinations is available in the documentation: [SlaviatureDocs.pdf](keyman/extras/SlaviatureDocs.pdf)
 
 #### This repository contains versions for:
 
