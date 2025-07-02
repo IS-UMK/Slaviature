@@ -1,5 +1,5 @@
 ﻿#Requires AutoHotkey v2.0
-; it is required that the Polish programmer's keyboard is running in the background
+; it is required that the Polish keyboard 'pl' is running in the background
 <^>!+`::SendInput Chr(0x303)    ; + Shift, Combining Tilde ◌̃
 <^>!`::SendInput Chr(0xB4)      ; <^>! Altgr, ´
 
