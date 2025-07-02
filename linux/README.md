@@ -4,9 +4,8 @@
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/IS-UMK/Slaviature/blob/master/linux/README.md)
 [![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/IS-UMK/Slaviature/blob/master/linux/README_pl.md)
 
-The Slaviature keyboard layout allows for quick input of characters from the
-Slavistic Phonetic Alphabet in Debian/Linux environments using XKB (*X Keyboard
-Extension*).
+Slaviature allows for quick input of characters from the Slavistic Phonetic
+Alphabet in Debian/Linux environments using XKB (*X Keyboard Extension*).
 
 ## Installation
 
