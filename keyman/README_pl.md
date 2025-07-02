@@ -4,7 +4,7 @@
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/IS-UMK/Slaviature/blob/master/keyman/README.md)
 [![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/IS-UMK/Slaviature/blob/master/keyman/README_pl.md)
 
-Slawiatura umożliwia szybkie wprowadzanie znaków Slawistycznego Alfabetu
+**Slawiatura** umożliwia szybkie wprowadzanie znaków Slawistycznego Alfabetu
 Fonetycznego w środowisku Keyman: https://keyman.com/keyboards/slaviature
 
 ## Instalacja Slawiatury  na komputerach stacjonarnych

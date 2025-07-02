@@ -3,7 +3,7 @@
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/IS-UMK/Slaviature/blob/master/keyman/README.md)
 [![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/IS-UMK/Slaviature/blob/master/keyman/README_pl.md)
 
-Slaviature allows for quick input of characters from the Slavistic Phonetic
+**Slaviature** allows for quick input of characters from the Slavistic Phonetic
 Alphabet in the Keyman environment: https://keyman.com/keyboards/slaviature
 
 ## Installing Slaviature on desktop computers
