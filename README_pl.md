@@ -39,4 +39,5 @@ Pełna lista kombinacji klawiszowych znajduje się w dokumentacji: [SlaviatureDo
 
 #### Wymagania:
 
-- Czcionki, np. [Doulos SIL](https://software.sil.org/doulos/) lub [Roboto](https://fonts.google.com/specimen/Roboto)
+Dla prawidłowego wyświetlania wszystkich symboli alfabetu konieczne jest zainstalowanie
+odpowiedniej czcionki, np [Doulos SIL](https://software.sil.org/doulos/), [Charis SIL](https://software.sil.org/charis/)  or   [Gentium](https://software.sil.org/gentium/)

@@ -40,5 +40,5 @@ The full list of keyboard combinations is available in the documentation: [Slavi
 
 #### Requirements:
 
-- Fonts such as [Doulos SIL](https://software.sil.org/doulos/) or [Roboto](https://fonts.google.com/specimen/Roboto)
+For the correct display of all alphabet symbols, it is necessary to install an appropriate font, such as [Doulos SIL](https://software.sil.org/doulos/),  [Charis SIL](https://software.sil.org/charis/)  or [Gentium](https://software.sil.org/gentium/)
 
