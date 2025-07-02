@@ -1,13 +1,14 @@
 
-# O projekcie Slawiatura — Debian/Linux (XKB)
+# Slawiatura — Debian/Linux (XKB)
 
 Układ klawiatury Slawiatura umożliwia szybkie wprowadzanie znaków Slawistycznego
-Alfabetu Fonetycznego w środowisku Debian/Linux jako wariant XKB. 
+Alfabetu Fonetycznego w środowisku Debian/Linux z wykorzystaniem XKB (ang. *X
+Keyboard Extension*).
 
 ## Instalacja
 
 Skopiuj plik `slav` z folderu:
-- `linux/slav_1.0_all/usr/share/X11/xkb/symbols/` 
+- `Slaviature/linux/usr/share/X11/xkb/symbols/` 
 
 do systemowego folderu:
 - `/usr/share/X11/xkb/symbols/`
@@ -15,28 +16,81 @@ do systemowego folderu:
 Możesz to zrobić np. poleceniem (wymagane są uprawnienia root):
 
 ```bash
-sudo cp Slaviature/linux/slav_1.0_all/usr/share/X11/xkb/symbols/slav \
+sudo cp Slaviature/linux/usr/share/X11/xkb/symbols/slav \
 	 /usr/share/X11/xkb/symbols/
 ```
 
-## Jak włączyć
+## Użytkowanie z wykorzystaniem *setxkbmap*
 
-1. Za pomocą polecenia *setxkbmap*
+1. Sprawdź, jaki masz ustawiony układ klawiatury
 
-```bash
-setxkbmap slav
-```
+   ```bash
+   setxkbmap -query
+   ```
 
-2. Dla ułatwienia przełączania między układami, możesz użyć dostarczonego
-   skryptu:
+   Przykładowa odpowiedź z domyślnym układem klawiatury dla języka polskiego 'pl':
+   ```conf
+   rules:      evdev
+   model:      pc105
+   layout:     pl
+   ```
+  
+   Możliwe są jeszcze dwa pola w odpowiedzi: 'variant' i 'options'. W tym
+   przykładzie są niewidoczne, ponieważ nie są ustawione.
 
-``` bash
-./ChangeLayout.sh
-```
+1. Włącz Slawiaturę
+
+   ```bash
+   setxkbmap slav
+   ```
+
+2. Możesz wrócić do wcześniej ustawionego układu klawiatury poleceniem:
+
+   ```bash
+   setxkbmap pl
+   ```
+
+3. Dla ułatwienia korzystania z domyślnej klawiatury i Slawiatury możesz ustawić
+   je jednocześnie i dodać skrót klawiszowy np. 'Lewy Alt + Shift' do przełączania
+   między tymi układami.
+
+   ```bash
+   setxkbmap -layout "pl,slav" -option "grp:alt_shift_toggle"
+   ```
+
+   Więcej możliwych skrótów znajdziesz, wywołując polecenie:
+
+   ```bash
+   grep 'grp.*toggle' /usr/share/X11/xkb/rules/base.lst
+   ```
 
 ## Dodatkowe opcje i konfiguracja
-- Jeśli korzystasz z innego narzędzia niż setxkbmap, np. graficznego menedżera
-  układów, możesz doinstalować lub zmodyfikować pliki w folderze `rules/`.
-- Pliki w `rules/` zawierają reguły XKB zgodne z systemowymi standardami.
-- Aby zmiany zadziałały globalnie lub trwałe, trzeba je odpowiednio zainstalować
-  w `/usr/share/X11/xkb/` lub w katalogu domowym.
+
+Jeśli korzystasz z innego narzędzia niż *setxkbmap*, np. graficznego menedżera
+układów, możesz zmodyfikować pliki *base.lst, base.xml, evdev.lst, evdev.xml* w
+swoim systemowym katalogu `/usr/share/X11/xkb/rules`, dodając w nich informację
+o Slawiaturze. W tym repozytorium znajdują się również wersje tych plików z już
+dodaną konfiguracją, więc możesz sprawdzić, jak została ona w nich
+wpisana. Poniżej przykładowe fragmenty tych plików:
+  
+base.lst i evdev.lst:
+```conf
+! layout
+sk              Slovak
+slav            Slavistic Phonetic Alphabet
+es              Spanish
+```
+  
+base.xml i evdev.xml:
+```xml
+   <layout>
+    <configItem>
+      <name>slav</name>
+      <!-- Keyboard indicator for Slavistic Phonetic Alphabet layouts -->
+      <shortDescription>slav</shortDescription>
+      <description>Slavistic Phonetic Alphabet - Slawiatura</description>
+      <languageList/>
+    </configItem>
+    <variantList/>
+  </layout>
+```
