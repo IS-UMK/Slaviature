@@ -1,13 +1,13 @@
 
-# About Slaviature — Windows (AutoHotkey)
+# Slaviature — Windows (AutoHotkey)
 
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README.md)
 [![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README_pl.md)
 
 **Slaviature.exe** is a background application keyboard layout designed to work
-alongside the default Windows layout **Polish (Programmers)**. It enables easy
-typing of the Slavic Phonetic Alphabet characters without changing the system
-keyboard layout.
+alongside the default Windows layout for Polish language: **Polish
+(Programmers)**. It enables easy typing of the Slavic Phonetic Alphabet
+characters without changing the system keyboard layout.
 
 ## How to start
 
@@ -38,8 +38,3 @@ Options available:
 1. Download and install [AutoHotkey](https://www.autohotkey.com/).
 2. Right-click on the `Slaviature.ahk` script and select **Compile Script**.
 3. This will create `Slaviature.exe` which runs identically to the provided version.
-
-## Folder contents
-
-- `Slaviature.ahk` — AutoHotkey script defining the keyboard layout.
-- `Slaviature.exe` — compiled background application executable.

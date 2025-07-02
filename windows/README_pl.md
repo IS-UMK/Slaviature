@@ -1,5 +1,5 @@
 
-# O projekcie Slawiatura — Windows (AutoHotkey)
+# Slawiatura — Windows (AutoHotkey)
 
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README.md)
 [![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README_pl.md)
@@ -38,8 +38,3 @@ Dostępne opcje:
 1. Pobierz i zainstaluj [AutoHotkey](https://www.autohotkey.com/).
 2. Kliknij prawym przyciskiem myszy na plik `Slaviature.ahk` i wybierz **Compile Script**.
 3. Utworzony zostanie plik `Slaviature.exe` działający identycznie jak gotowa wersja.
-
-## Pliki w folderze
-
-- `Slaviature.ahk` — skrypt AutoHotkey z definicją układu klawiatury.
-- `Slaviature.exe` — skompilowana wersja działająca w tle.
