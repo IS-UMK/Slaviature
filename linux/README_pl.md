@@ -1,6 +1,9 @@
 
 # Slawiatura — Debian/Linux (XKB)
 
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/IS-UMK/Slaviature/blob/master/linux/README.md)
+[![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/IS-UMK/Slaviature/blob/master/linux/README_pl.md)
+
 Układ klawiatury Slawiatura umożliwia szybkie wprowadzanie znaków Slawistycznego
 Alfabetu Fonetycznego w środowisku Debian/Linux z wykorzystaniem XKB (ang. *X
 Keyboard Extension*).
