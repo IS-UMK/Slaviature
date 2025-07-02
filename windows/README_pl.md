@@ -4,10 +4,9 @@
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README.md)
 [![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README_pl.md)
 
-**Slaviature.exe** to klawiatura działająca na zasadzie aplikacji w tle,
-stworzona z myślą o pracy z domyślnym układem **Polski (Programisty)** w
-Windows. Aplikacja umożliwia szybki dostęp do znaków Slawistycznego Alfabetu
-Fonetycznego bez zmiany systemowego układu klawiatury.
+**Slawiatura** umożliwia szybkie wprowadzanie znaków Slawistycznego Alfabetu
+Fonetycznego w środowisku Windows.  Aby aplikacja działała poprawnie, przed jej
+uruchomieniem należy w systemie ustawić układ klawiatury **Polski (programisty)**.
 
 ## Jak włączyć
 

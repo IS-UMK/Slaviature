@@ -4,10 +4,10 @@
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README.md)
 [![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README_pl.md)
 
-**Slaviature.exe** is a keyboard layout application designed to work alongside
-the default Polish layout: **Polish (Programmers)**. It enables easy typing of
-Slavistic Phonetic Alphabet characters without changing the system keyboard
-layout.
+**Slaviature** allows for quick input of characters from the Slavistic Phonetic
+Alphabet in Windows environment.  For proper operation, the keyboard layout
+**Polish (Programmer)** must be selected in Windows before launching the
+application.
 
 ## How to start
 
