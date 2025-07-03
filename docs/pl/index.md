@@ -10,7 +10,7 @@ lang: pl
 
 **Slawiatura** to układ klawiatury do zapisu slawistycznym alfabetem fonetycznym. 
 
-![slaviature](slaviature.png)
+![slaviature](../../slaviature.png)
 
 Każdy klawisz może mieć przypisane cztery różne znaki, rozmieszczone
 symbolicznie w rogach klawisza:
