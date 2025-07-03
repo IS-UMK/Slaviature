@@ -10,7 +10,7 @@ lang: en
 
 Slaviature is a custom keyboard layout for the Slavistic Phonetic Alphabet.
 
-![slaviature](../slaviature.png)
+![slaviature](/slaviature.png)
 
 Each key can have up to four different characters assigned, arranged
 symbolically in the corners of the key:
@@ -33,7 +33,7 @@ The second and third symbols use a diacritic character available on the key with
 the ` symbol in the upper-right corner. Slaviature provides eleven diacritic
 characters that can be used to compose more complex symbols.
 
-![slaviature_docs.png](../slaviature_docs.png)
+![slaviature_docs.png](/slaviature_docs.png)
 
 The full list of keyboard combinations is available in the documentation: [SlaviatureDocs.pdf](SlaviatureDocs.pdf)
 
