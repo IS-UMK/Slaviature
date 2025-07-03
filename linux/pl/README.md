@@ -9,8 +9,8 @@ Extension*).
 
 ## Instalacja
 
-Skopiuj plik `slav` z folderu:
-- `Slaviature/linux/usr/share/X11/xkb/symbols/` 
+Przejdź do lokalnego folderu, w którym sklonowałeś/pobrałeś to repozytorium, a następnie skopiuj plik `slav` z:
+- `linux/usr/share/X11/xkb/symbols/` 
 
 do systemowego folderu:
 - `/usr/share/X11/xkb/symbols/`
@@ -18,7 +18,7 @@ do systemowego folderu:
 Możesz to zrobić np. poleceniem (wymagane są uprawnienia root):
 
 ```bash
-sudo cp Slaviature/linux/usr/share/X11/xkb/symbols/slav \
+sudo cp linux/usr/share/X11/xkb/symbols/slav \
 	 /usr/share/X11/xkb/symbols/
 ```
 

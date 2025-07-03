@@ -8,8 +8,8 @@ Alphabet in Debian/Linux environments using XKB (*X Keyboard Extension*).
 
 ## Installation
 
-Copy the `slav` file from:
-- `Slaviature/linux/usr/share/X11/xkb/symbols/`
+Navigate to the local folder where you cloned/download this repository, then copy the `slav` file from:
+- `linux/usr/share/X11/xkb/symbols/`
 
 to the system folder:
 - `/usr/share/X11/xkb/symbols/`
@@ -17,7 +17,7 @@ to the system folder:
 You can do this using the following command (root privileges required):
 
 ```bash
-sudo cp Slaviature/linux/usr/share/X11/xkb/symbols/slav \
+sudo cp linux/usr/share/X11/xkb/symbols/slav \
     /usr/share/X11/xkb/symbols/
 ```
 
