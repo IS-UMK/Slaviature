@@ -1,11 +1,10 @@
 # Slawiatura (ang. *Slaviature*)
 
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/IS-UMK/Slaviature/blob/master/README.md)
-[![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/IS-UMK/Slaviature/blob/master/README_pl.md)
 
 **Slawiatura** to układ klawiatury do zapisu slawistycznym alfabetem fonetycznym. 
 
-![slaviature](slaviature.png)
+![slaviature](../slaviature.png)
 
 Każdy klawisz może mieć przypisane cztery różne znaki, rozmieszczone
 symbolicznie w rogach klawisza:
@@ -27,15 +26,15 @@ Ten drugi i trzeci symbol wykorzystują znak diakrytyczny widoczny na klawiszu z
 znakiem \` w prawym górnym rogu. W Slawiaturze dostępnych jest jedenaście znaków
 diakrytycznych, które służą do zapisu bardziej złożonych symboli.
 
-![slaviature_docs.png](slaviature_docs.png)
+![slaviature_docs.png](../slaviature_docs.png)
 
-Pełna lista kombinacji klawiszowych znajduje się w dokumentacji: [SlaviatureDocs.pdf](keyman/extras/SlaviatureDocs.pdf)
+Pełna lista kombinacji klawiszowych znajduje się w dokumentacji: [SlaviatureDocs.pdf](../keyman/extras/SlaviatureDocs.pdf)
 
 #### Repozytorium zawiera wersje dla:
 
-- [Debiana/Linuxa](linux/README_pl.md)
-- [Windowsa](windows/README_pl.md)
-- [Keymana (dostępnego na Windows, macOS, iOS, Linux, Android)](keyman/README_pl.md)
+- [Debiana/Linuxa](../linux/pl/README.md)
+- [Windowsa](../windows/pl/README.md)
+- [Keymana (dostępnego na Windows, macOS, iOS, Linux, Android)](../keyman/pl/README.md)
 
 #### Wymagania:
 
