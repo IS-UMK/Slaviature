@@ -6,11 +6,11 @@ lang: en
 
 # Slaviature
 
-[![pl](https://img.shields.io/badge/lang-pl-red.svg)](/pl/)
+[![pl](https://img.shields.io/badge/lang-pl-red.svg)]({{ site.baseurl }}/pl/)
 
 Slaviature is a custom keyboard layout for the Slavistic Phonetic Alphabet.
 
-![slaviature](/slaviature.png)
+![slaviature]({{ site.baseurl }}/slaviature.png)
 
 Each key can have up to four different characters assigned, arranged
 symbolically in the corners of the key:
@@ -39,9 +39,9 @@ The full list of keyboard combinations is available in the documentation: [Slavi
 
 #### This repository contains versions for:
 
-- [Debian/Linux](linux/README.md)
-- [Windows](windows/README.md)
-- [Keyman (available on Windows, macOS, iOS, Linux and Android)](keyman/README.md)
+- [Debian/Linux](/linux/README.md)
+- [Windows](/windows/README.md)
+- [Keyman (available on Windows, macOS, iOS, Linux and Android)](/keyman/README.md)
 
 #### Requirements:
 

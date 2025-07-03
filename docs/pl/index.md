@@ -4,13 +4,13 @@ title: Slawiatura
 lang: pl
 ---
 
-# Slawiatura (ang. *Slaviature*)
+# Slawiatura
 
-[![en](https://img.shields.io/badge/lang-en-blue.svg)](/)
+[![en](https://img.shields.io/badge/lang-en-blue.svg)]({{ site.baseurl }}/)
 
 **Slawiatura** to układ klawiatury do zapisu slawistycznym alfabetem fonetycznym. 
 
-![slaviature](../../slaviature.png)
+![slaviature]({{ site.baseurl }}/slaviature.png)
 
 Każdy klawisz może mieć przypisane cztery różne znaki, rozmieszczone
 symbolicznie w rogach klawisza:
@@ -32,15 +32,15 @@ Ten drugi i trzeci symbol wykorzystują znak diakrytyczny widoczny na klawiszu z
 znakiem \` w prawym górnym rogu. W Slawiaturze dostępnych jest jedenaście znaków
 diakrytycznych, które służą do zapisu bardziej złożonych symboli.
 
-![slaviature_docs.png](slaviature_docs.png)
+![slaviature_docs.png](/slaviature_docs.png)
 
-Pełna lista kombinacji klawiszowych znajduje się w dokumentacji: [SlaviatureDocs.pdf](keyman/extras/SlaviatureDocs.pdf)
+Pełna lista kombinacji klawiszowych znajduje się w dokumentacji: [SlaviatureDocs.pdf](/docs/SlaviatureDocs.pdf)
 
 #### Repozytorium zawiera wersje dla:
 
-- [Debiana/Linuxa](linux/README_pl.md)
-- [Windowsa](windows/README_pl.md)
-- [Keymana (dostępnego na Windows, macOS, iOS, Linux, Android)](keyman/README_pl.md)
+- [Debiana/Linuxa](/linux/README_pl.md)
+- [Windowsa](/windows/README_pl.md)
+- [Keymana (dostępnego na Windows, macOS, iOS, Linux, Android)](/keyman/README_pl.md)
 
 #### Wymagania:
 
