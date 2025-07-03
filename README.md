@@ -1,8 +1,9 @@
-# Slaviature (pl. *Slawiatura*)
 
-[![pl](https://img.shields.io/badge/lang-pl-red.svg)](pl/README.md)
+# Slaviature
 
-**Slaviature** is a custom keyboard layout for the Slavistic Phonetic Alphabet. 
+[🇵🇱 Polish version](pl/README.md)
+
+**Slaviature** (pl. *Slawiatura*) is a custom keyboard layout for the Slavistic Phonetic Alphabet. 
 
 ![slaviature](slaviature.png)
 

@@ -1,8 +1,7 @@
 
 # Slawiatura — Windows (AutoHotkey)
 
-[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README.md)
-[![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README_pl.md)
+[🇬🇧 English version](../README.md)
 
 **Slawiatura** umożliwia szybkie wprowadzanie znaków Slawistycznego Alfabetu
 Fonetycznego w środowisku Windows.  Aby aplikacja działała poprawnie, przed jej
@@ -10,9 +9,9 @@ uruchomieniem należy w systemie ustawić układ klawiatury **Polski (programist
 
 ## Jak włączyć
 
-1. Uruchom aplikację **Slaviature.exe**:
-   - Dwukrotnie klikając lewym przyciskiem myszy
-   - Lub pojedynczym kliknięciem prawym przyciskiem myszy i wybraniem opcji **Otwórz**
+1. Uruchom aplikację **Slaviature.exe** dwukrotnie klikając lewym przyciskiem
+   myszy lub pojedynczym kliknięciem prawym przyciskiem myszy i wybraniem opcji
+   **Otwórz**
 
 2. Po uruchomieniu aplikacji w pasku zadań pojawi się jej ikona. Pasek zadań
    znajduje się domyślnie w prawym dolnym rogu ekranu — obok ikon głośności,

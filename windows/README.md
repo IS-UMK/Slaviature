@@ -1,8 +1,7 @@
 
 # Slaviature — Windows (AutoHotkey)
 
-[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README.md)
-[![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/IS-UMK/Slaviature/blob/master/windows/README_pl.md)
+[🇵🇱 Polish version](pl/README.md)
 
 **Slaviature** allows for quick input of characters from the Slavistic Phonetic
 Alphabet in Windows environment.  For proper operation, the keyboard layout
@@ -11,9 +10,8 @@ application.
 
 ## How to start
 
-1. Launch **Slaviature.exe** by:
-   - Double-clicking the left mouse button
-   - Or right-clicking once and selecting **Open**
+1. Launch **Slaviature.exe** by double-clicking the left mouse button or
+   right-clicking once and selecting **Open**
 
 2. After launching, the application icon will appear in the taskbar. The taskbar
    is usually located in the lower right corner of the screen, near the volume,

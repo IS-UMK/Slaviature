@@ -1,8 +1,9 @@
-# Slawiatura (ang. *Slaviature*)
 
-[![en](https://img.shields.io/badge/lang-en-blue.svg)](../README.md)
+# Slawiatura
 
-**Slawiatura** to układ klawiatury do zapisu slawistycznym alfabetem fonetycznym. 
+[🇬🇧 English version](../README.md)
+
+**Slawiatura** (ang. *Slaviature*) to układ klawiatury do zapisu slawistycznym alfabetem fonetycznym. 
 
 ![slaviature](../slaviature.png)
 
