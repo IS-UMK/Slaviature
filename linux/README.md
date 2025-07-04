@@ -44,13 +44,13 @@ sudo cp linux/usr/share/X11/xkb/symbols/slav \
    ```bash
    setxkbmap slav
    ```
-2. You can switch back to your previously set layout with:
+3. You can switch back to your previously set layout with:
 
    ```bash
    setxkbmap us
    ```
 
-3. To make it easier to use both your default layout and Slaviature, you can
+4. To make it easier to use both your default layout and Slaviature, you can
    configure both at once and assign a keyboard shortcut (e.g., Left Alt +
    Left Shift) for switching between them:
 
@@ -63,7 +63,12 @@ sudo cp linux/usr/share/X11/xkb/symbols/slav \
    ```bash
    grep 'grp.*toggle' /usr/share/X11/xkb/rules/base.lst
    ```
-   
+
+5. The keyboard layout toggle option using *setxkbmap* with the `-option` flag may
+   not work correctly under GNOME. In this case, you can use the script
+   *changeLayout.sh*, place it, for example, in `/usr/local/bin`, and assign a
+   convenient keyboard shortcut to it.
+
 ## Additional options and configuration
 
 If you're using a different tool than setxkbmap, such as a graphical layout

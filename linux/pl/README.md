@@ -40,19 +40,19 @@ sudo cp linux/usr/share/X11/xkb/symbols/slav \
    Możliwe są jeszcze dwa pola w odpowiedzi: 'variant' i 'options'. W tym
    przykładzie są niewidoczne, ponieważ nie są ustawione.
 
-1. Włącz Slawiaturę
+2. Włącz Slawiaturę
 
    ```bash
    setxkbmap slav
    ```
 
-2. Możesz wrócić do wcześniej ustawionego układu klawiatury poleceniem:
+3. Możesz wrócić do wcześniej ustawionego układu klawiatury poleceniem:
 
    ```bash
    setxkbmap pl
    ```
 
-3. Dla ułatwienia korzystania z domyślnej klawiatury i Slawiatury możesz ustawić
+4. Dla ułatwienia korzystania z domyślnej klawiatury i Slawiatury możesz ustawić
    je jednocześnie i dodać skrót klawiszowy np. 'Lewy Alt + Lewy Shift' do przełączania
    między tymi układami.
 
@@ -65,6 +65,11 @@ sudo cp linux/usr/share/X11/xkb/symbols/slav \
    ```bash
    grep 'grp.*toggle' /usr/share/X11/xkb/rules/base.lst
    ```
+   
+5. Opcja z przełączaniem klawiatur z wykorzystaniem *setxkbmap* z flagą
+   `-option` może nie działać prawidłowo pod GNOME. W takim przypadku możesz
+   skorzystać ze skryptu *changeLayout.sh*, umieścić go np. w `/usr/local/bin` i
+   przypisać mu wygodny skrót klawiszowy.
 
 ## Dodatkowe opcje i konfiguracja
 
