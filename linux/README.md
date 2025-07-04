@@ -52,10 +52,10 @@ sudo cp linux/usr/share/X11/xkb/symbols/slav \
 
 3. To make it easier to use both your default layout and Slaviature, you can
    configure both at once and assign a keyboard shortcut (e.g., Left Alt +
-   Shift) for switching between them:
+   Left Shift) for switching between them:
 
    ```bash
-   setxkbmap -layout "us,slav" -option "grp:alt_shift_toggle"
+   setxkbmap -layout "us,slav" -option "grp:lalt_lshift_toggle"
    ```
 
    To see other available shortcuts, run:

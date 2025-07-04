@@ -53,11 +53,11 @@ sudo cp linux/usr/share/X11/xkb/symbols/slav \
    ```
 
 3. Dla ułatwienia korzystania z domyślnej klawiatury i Slawiatury możesz ustawić
-   je jednocześnie i dodać skrót klawiszowy np. 'Lewy Alt + Shift' do przełączania
+   je jednocześnie i dodać skrót klawiszowy np. 'Lewy Alt + Lewy Shift' do przełączania
    między tymi układami.
 
    ```bash
-   setxkbmap -layout "pl,slav" -option "grp:alt_shift_toggle"
+   setxkbmap -layout "pl,slav" -option "grp:lalt_lshift_toggle"
    ```
 
    Więcej możliwych skrótów znajdziesz, wywołując polecenie:
