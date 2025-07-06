@@ -1,9 +1,9 @@
 
 # Slaviature
 
-[🇵🇱 Polish version](pl/README.md)
+[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-f2f2f2?style=for-the-badge&logo=github&logoColor=303030&color=f2f2f2)](https://github.com/IS-UMK/Slaviature)
 
-**Slaviature** (pl. *Slawiatura*) is a custom keyboard layout for the Slavistic Phonetic Alphabet. 
+**Slaviature** (pl. *[Slawiatura](pl/README.md)*) is a custom keyboard layout for the Slavistic Phonetic Alphabet. 
 
 ![slaviature](slaviature.png)
 

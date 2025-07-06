@@ -1,7 +1,7 @@
 
 # Slawiatura — Windows (AutoHotkey)
 
-[🇬🇧 English version](../README.md)
+[![Zobacz na GitHubie](https://img.shields.io/badge/Zobacz%20na%20GitHubie-f2f2f2?style=for-the-badge&logo=github&logoColor=303030&color=f2f2f2)](https://github.com/IS-UMK/Slaviature/blob/master/windows/pl/)
 
 **Slawiatura** umożliwia szybkie wprowadzanie znaków Slawistycznego Alfabetu
 Fonetycznego w środowisku Windows.  Aby aplikacja działała poprawnie, przed jej

@@ -1,7 +1,7 @@
 
 # Slaviature — Debian/Linux (XKB)
 
-[🇵🇱 Polish version](pl/README.md)
+[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-f2f2f2?style=for-the-badge&logo=github&logoColor=303030&color=f2f2f2)](https://github.com/IS-UMK/Slaviature/blob/master/linux/)
 
 **Slaviature** allows for quick input of characters from the Slavistic Phonetic
 Alphabet in Debian/Linux environments using XKB (*X Keyboard Extension*).
