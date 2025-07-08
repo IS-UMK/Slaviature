@@ -53,11 +53,11 @@ sudo cp linux/usr/share/X11/xkb/symbols/slav \
    ```
 
 4. Dla ułatwienia korzystania z domyślnej klawiatury i Slawiatury możesz ustawić
-   je jednocześnie i dodać skrót klawiszowy np. 'Lewy Alt + Lewy Shift' do przełączania
+   je jednocześnie i dodać skrót klawiszowy np. 'Win + Space' do przełączania
    między tymi układami.
 
    ```bash
-   setxkbmap -layout "pl,slav" -option "grp:lalt_lshift_toggle"
+   setxkbmap -layout "pl,slav" -option "grp:win_space_toggle"
    ```
 
    Więcej możliwych skrótów znajdziesz, wywołując polecenie:
@@ -67,37 +67,33 @@ sudo cp linux/usr/share/X11/xkb/symbols/slav \
    ```
    
 5. Opcja z przełączaniem klawiatur z wykorzystaniem *setxkbmap* z flagą
-   `-option` może nie działać prawidłowo pod GNOME. W takim przypadku możesz
-   skorzystać ze skryptu *changeLayout.sh*, umieścić go np. w `/usr/local/bin` i
-   przypisać mu wygodny skrót klawiszowy.
-
-## Dodatkowe opcje i konfiguracja
-
-Jeśli korzystasz z innego narzędzia niż *setxkbmap*, np. graficznego menedżera
-układów, możesz zmodyfikować pliki *base.lst, base.xml, evdev.lst, evdev.xml* w
-swoim systemowym katalogu `/usr/share/X11/xkb/rules`, dodając w nich informację
-o Slawiaturze. W tym repozytorium znajdują się również wersje tych plików z już
-dodaną konfiguracją, więc możesz sprawdzić, jak została ona w nich
-wpisana. Poniżej przykładowe fragmenty tych plików:
-  
-base.lst i evdev.lst:
-```conf
-! layout
-sk              Slovak
-slav            Slavistic Phonetic Alphabet
-es              Spanish
-```
-  
-base.xml i evdev.xml:
-```xml
+   `-option` może nie działać prawidłowo pod GNOME. W takim przypadku do plików
+   *base.extras.xml* i *evdev.extras.xml*, znajdujących się w katalogu
+   `/usr/share/X11/xkb/rules/`, dodaj:
+   
+   ```xml
    <layout>
-    <configItem>
-      <name>slav</name>
-      <!-- Keyboard indicator for Slavistic Phonetic Alphabet layouts -->
-      <shortDescription>slav</shortDescription>
-      <description>Slavistic Phonetic Alphabet - Slawiatura</description>
-      <languageList/>
-    </configItem>
-    <variantList/>
-  </layout>
-```
+     <configItem popularity="exotic">
+	   <name>slav</name>
+	   <!-- Keyboard indicator for Slavistic Phonetic Alphabet layouts -->
+	   <shortDescription>slav</shortDescription>
+	   <description>Slavistic Phonetic Alphabet — Slawiatura</description>
+     </configItem>
+   </layout>
+   ```
+   
+   Następnie skonfiguruj klawiaturę w „Ustawienia” → „Język i region” → „Źródła
+   wprowadzania”. Aby dodać nowy układ, kliknij przycisk „+” i wybierz/wyszukaj
+   „slav”. 
+   
+   W tym repozytorium znajdują się również wersje tych plików z już dodaną
+   konfiguracją, więc możesz sprawdzić, jak została ona w nich wpisana.
+
+## Dodatkowa opcja
+
+Możesz również skorzystać ze skryptu *changeLayout.sh*, który znajduje się w tym
+repozytorium. Wystarczy umieścić go np. w katalogu `/usr/local/bin`, nadać mu
+prawa do wykonywania oraz przypisać do niego wygodny skrót klawiszowy w
+systemie. Skrypt ten umożliwia szybkie przełączanie się pomiędzy zdefiniowanymi
+układami klawiatury bez konieczności ręcznego używania setxkbmap lub wchodzenia
+w ustawienia systemowe.
