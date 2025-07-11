@@ -100,7 +100,7 @@
       <key vkey="K_U">u</key>
       <key vkey="K_V">v</key>
       <key vkey="K_W">w</key>
-      <key vkey="K_X">x</key>
+      <key vkey="K_X">χ</key>
       <key vkey="K_Y">y</key>
       <key vkey="K_Z">z</key>
     </layer>
@@ -158,9 +158,6 @@
       <key vkey="K_Y">Γ</key>
       <key vkey="K_Z">Ʒ</key>
       <key vkey="K_BKQUOTE">̃</key>
-    </layer>
-    <layer shift="CA">
-      <key vkey="K_X">χ</key>
     </layer>
   </encoding>
 </visualkeyboard>

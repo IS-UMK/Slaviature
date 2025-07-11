@@ -54,7 +54,7 @@ c REGULAR KEYS
 + [K_QUOTE] > U+0027
 
 + [K_Z] > 'z'
-+ [K_X] > 'x'
++ [K_X] > 'χ'
 + [K_C] > 'c'
 + [K_V] > 'v'
 + [K_B] > 'b'
@@ -176,9 +176,3 @@ c SHIFT ALT KEYS
 + [SHIFT ALT K_B] > U+1E46
 + [SHIFT ALT K_N] > 'Ń'
 + [SHIFT ALT K_M] > 'Ŋ'
-
-c CTRL ALT KEYS
-+ [CTRL ALT K_X] > 'χ'
-
-
-

@@ -448,7 +448,7 @@
             </tr>
             <tr>
                 <td>χ</td>
-                <td>Ctrl + Alt + x</td>
+                <td>x</td>
                 <td>U+03C7</td>
                 <td>Greek small letter Chi</td>
             </tr>
@@ -460,7 +460,7 @@
             </tr>
             <tr>
                 <td>χˊ</td>
-                <td>Ctrl + Alt + x, Alt + ˊ</td>
+                <td>x, Alt + ˊ</td>
                 <td>-</td>
                 <td>Greek small letter Chi with prime</td>
             </tr>
