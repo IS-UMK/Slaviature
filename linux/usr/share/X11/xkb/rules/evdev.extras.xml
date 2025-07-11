@@ -1712,10 +1712,10 @@
     </layout>
     <layout>
       <configItem popularity="exotic">
-	<name>slav</name>
-	<!-- Keyboard indicator for Slavistic Phonetic Alphabet layouts -->
-	<shortDescription>slav</shortDescription>
-	<description>Slavistic Phonetic Alphabet — Slawiatura</description>
+        <name>slav</name>
+        <!-- Keyboard indicator for Slavistic Phonetic Alphabet layouts -->
+        <shortDescription>slav</shortDescription>
+        <description>Slavistic Phonetic Alphabet</description>
       </configItem>
     </layout>
     <layout>

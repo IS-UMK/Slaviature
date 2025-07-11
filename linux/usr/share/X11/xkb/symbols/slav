@@ -1,7 +1,9 @@
+// Slaviature/Slawiatura
+
 default  partial alphanumeric_keys
 xkb_symbols "basic" {
 
-    name[Group1]="Slawiatura";
+    name[Group1]="Slavistic Phonetic Alphabet";
 
     key <TLDE>	{ [        grave,  asciitilde,              U02B9, combining_tilde ]	}; // `, ~, ʹ, ̃◌
     key <AE01>	{ [            1,      exclam,         VoidSymbol,      VoidSymbol ]	}; // 1, !
@@ -42,6 +44,7 @@ xkb_symbols "basic" {
     key <AC10>	{ [    semicolon,       colon,              U0328,           U0308 ]	}; // ;, :, ◌̨, ◌̈  
     key <AC11>	{ [   apostrophe,    quotedbl,    combining_acute,      VoidSymbol ]	}; // ', ", ◌́    
 
+    key <BKSL>	{ [    backslash,         bar,         VoidSymbol,      VoidSymbol ]	}; // \ |    
     key <AB01>	{ [            z,           Z,                ezh,             EZH ]	}; // z, Z, ʒ, Ʒ
     key <AB02>	{ [    Greek_chi,   Greek_CHI,             zacute,          Zacute ]	}; // χ, Χ, ź, Ź
     key <AB03>	{ [            c,           C,             cacute,          Cacute ]	}; // c, C, ć, Ć

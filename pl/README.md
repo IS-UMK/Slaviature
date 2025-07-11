@@ -35,7 +35,7 @@ Pełna lista kombinacji klawiszowych znajduje się w dokumentacji: [SlaviatureDo
 
 - [Debiana/Linuxa](../linux/pl/README.md)
 - [Windowsa](../windows/pl/README.md)
-- [Keymana (dostępnego na Windows, macOS, iOS, Linux, Android)](../keyman/pl/README.md)
+- [Keymana (**wkrótce dostępny** na Windows, macOS, iOS, Linux, Android)](../keyman/pl/README.md)
 
 #### Wymagania:
 

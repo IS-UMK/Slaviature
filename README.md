@@ -36,7 +36,7 @@ The full list of keyboard combinations is available in the documentation: [Slavi
 
 - [Debian/Linux](linux/README.md)
 - [Windows](windows/README.md)
-- [Keyman (available on Windows, macOS, iOS, Linux and Android)](keyman/README.md)
+- [Keyman (**coming soon** on Windows, macOS, iOS, Linux and Android)](keyman/README.md)
 
 #### Requirements:
 
