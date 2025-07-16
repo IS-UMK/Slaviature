@@ -5,9 +5,13 @@
 [![Zobacz na GitHubie](https://img.shields.io/badge/Zobacz%20na%20GitHubie-f2f2f2?style=for-the-badge&logo=github&logoColor=303030&color=f2f2f2)](https://github.com/IS-UMK/Slaviature/blob/master/keyman/pl/)
 
 **Slawiatura** umożliwia szybkie wprowadzanie znaków Slawistycznego Alfabetu
-Fonetycznego w środowisku [Keyman](https://keyman.com/keyboards/slaviature)
+Fonetycznego w środowisku [Keyman](https://keyman.com/)
 
-## Instalacja Slawiatury  na komputerach stacjonarnych
+## Instalacja Slawiatury na komputerach stacjonarnych
+
+1. Kliknij na link: [Przejdź do instalacji](https://keyman.com/keyboards/slaviature)
+2. Naciśnij przycisk **Install Keyboard**.
+3. Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
 - [Keyman dla Windowsa](https://help.keyman.com/products/windows/current-version/)
 - [Keyman dla MacOs](https://help.keyman.com/products/mac/current-version/)

@@ -4,13 +4,13 @@
 [![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-f2f2f2?style=for-the-badge&logo=github&logoColor=303030&color=f2f2f2)](https://github.com/IS-UMK/Slaviature/blob/master/keyman/)
 
 **Slaviature** allows for quick input of characters from the Slavistic Phonetic
-Alphabet in the [Keyman environment](https://keyman.com/keyboards/slaviature)
+Alphabet in the [Keyman environment](https://keyman.com/)
 
 ## Installing Slaviature on desktop computers
 
-- [Keyman for Windows](https://help.keyman.com/products/windows/current-version/)
-- [Keyman for MacOs](https://help.keyman.com/products/mac/current-version/)
-- [Keyman for Linux](https://help.keyman.com/products/linux/current-version/)
+1. Click the link [Go to installation](https://keyman.com/keyboards/slaviature)
+2. Press the **Install Keyboard** button.
+3. Follow the on-screen instructions to complete the installation
 
 ## Installing Slaviature on mobile devices
 
