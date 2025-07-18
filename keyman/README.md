@@ -1,12 +1,24 @@
 
-# Slaviature – Keyman
+# Slaviature 
 
-[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-f2f2f2?style=for-the-badge&logo=github&logoColor=303030&color=f2f2f2)](https://github.com/IS-UMK/Slaviature/blob/master/keyman/)
+## Description
 
-**Slaviature** allows for quick input of characters from the Slavistic Phonetic
-Alphabet in the [Keyman environment](https://keyman.com/)
+A keyboard layout for the Slavistic Phonetic Alphabet.
 
-## Installation
+## Links
 
-[Go to installation](https://keyman.com/keyboards/slaviature) → Install
-keyboard → Follow instructions on the page
+Homepage: https://keyman.com/keyboards/slaviature
+
+## Copyright
+
+See [LICENSE.md](LICENSE.md)
+
+## Supported Platforms
+
+* Windows
+* macOS
+* Linux
+* Web
+* iPhone and iPad
+* Android
+* Mobile web
