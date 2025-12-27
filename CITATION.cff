@@ -1,45 +1,31 @@
-cff-version: "1.2.0"
-title: "Slaviature: A unified keyboard layout for the Slavistic Phonetic Alphabet"
-message: "If you use this software, please cite it using the following metadata."
-version: "1.0.0"
-date-released: "2025-12-27"
-
+cff-version: 1.2.0
+title: >-
+  Slaviature: A keyboard layout for the Slavistic Phonetic
+  Alphabet
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
 authors:
-  - family-names: "Pierzchalski"
-    given-names: "Michał"
-    orcid: "https://orcid.org/0000-0002-9936-116"
-    email: "pierzcham@umk.pl"
-    roles:
-      - conceptualization
-      - supervision
-      - project-design
-
-  - family-names: "Lesiński"
-    given-names: "Daniel"
-    roles:
-      - keyboard-layout-design
-      - linux-implementation
-
-  - family-names: "Preinl"
-    given-names: "Weronika"
-    roles:
-      - windows-implementation
-
-  - family-names: "Brudziński"
-    given-names: "Rafał"
-    roles:
-      - keyman-implementation
-
-repository-code: "https://github.com/IS-UMK/Slaviature"
-license: "MIT"
-
+  - given-names: Michał
+    family-names: Pierzchalski
+    email: pierzcham@umk.pl
+    affiliation: Nicolaus Copernicus University
+    orcid: 'https://orcid.org/0000-0002-9936-1169'
+  - given-names: Daniel
+    family-names: Lesiński
+  - given-names: Weronika
+    family-names: Preinl
+  - given-names: Rafał
+    family-names: Brudziński
 identifiers:
-  - type: doi
-    value: 10.5281/zenodo.18070404
-
+  - type: url
+    value: 'https://github.com/IS-UMK/Slaviature'
+repository-code: 'https://github.com/IS-UMK/Slaviature'
 keywords:
   - keyboard-layout
   - slavistic-phonetic-alphabet
   - linguistics
   - unicode
   - input-methods
+license: MIT
