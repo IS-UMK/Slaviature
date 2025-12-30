@@ -2,9 +2,6 @@ cff-version: 1.2.0
 title: >-
   Slaviature: A keyboard layout for the Slavistic Phonetic
   Alphabet
-message: >-
-  If you use this software, please cite it using the
-  metadata from this file.
 type: software
 authors:
   - given-names: Michał
@@ -20,7 +17,7 @@ authors:
     family-names: Brudziński
 identifiers:
   - type: url
-    value: 'https://github.com/IS-UMK/Slaviature'
+    value: 'https://is-umk.github.io/Slaviature/'
 repository-code: 'https://github.com/IS-UMK/Slaviature'
 keywords:
   - keyboard-layout
@@ -29,5 +26,5 @@ keywords:
   - unicode
   - input-methods
 license: MIT
-version: v1.0.1
-date-released: '2025-12-27'
+version: v1.0.2
+date-released: '2025-12-30'
