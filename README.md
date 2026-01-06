@@ -44,6 +44,5 @@ For the correct display of all alphabet symbols, it is necessary to install an a
 
 #### Citation:
 
-> Pierzchalski, M., Lesiński, D., Preinl, W., & Brudziński, R. (2025). 
-> *Slaviature: A keyboard layout for the Slavistic Phonetic Alphabet (v1.0.2)*. Zenodo. 
-> [https://doi.org/10.5281/zenodo.18094161](https://doi.org/10.5281/zenodo.18094161)
+Pierzchalski, M., Lesiński, D., Preinl, W., & Brudziński, R. (2025). *Slaviature: A keyboard layout
+for the Slavistic Phonetic Alphabet (v1.0.2)*. Zenodo. [https://doi.org/10.5281/zenodo.18094161](https://doi.org/10.5281/zenodo.18094161)
