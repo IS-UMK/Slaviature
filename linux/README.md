@@ -1,12 +1,24 @@
 
-# Slaviature — Debian/Linux (XKB)
+# Slaviature — Linux (XKB)
 
 [![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-f2f2f2?style=for-the-badge&logo=github&logoColor=303030&color=f2f2f2)](https://github.com/IS-UMK/Slaviature/blob/master/linux/)
 
 **Slaviature** allows for quick input of characters from the Slavistic Phonetic
-Alphabet in Debian/Linux environments using XKB (*X Keyboard Extension*).
+Alphabet in Linux environments using XKB (*X Keyboard Extension*).
 
 ## Installation
+
+*Since xkeyboard-config 2.47, Slaviature is available in the system XKB database as a variant of the Polish layout.*
+
+### Option 1: Use system-provided layout (recommended)
+
+If your system already includes xkeyboard-config 2.47 or newer version, enable it with:
+
+```bash
+setxkbmap -layout pl -variant slaviature
+```
+
+### Option 2: Manual installation (older systems)
 
 Navigate to the local folder where you cloned/download this repository, then copy the `slav` file from:
 - `linux/usr/share/X11/xkb/symbols/`
@@ -42,8 +54,15 @@ sudo cp linux/usr/share/X11/xkb/symbols/slav \
 2. Enable Slaviature:
 
    ```bash
+   setxkbmap -layout pl -variant slaviature
+   ```
+   
+   Or (for option 2) 
+
+   ```bash
    setxkbmap slav
    ```
+   
 3. You can switch back to your previously set layout with:
 
    ```bash
@@ -54,6 +73,12 @@ sudo cp linux/usr/share/X11/xkb/symbols/slav \
    configure both at once and assign a keyboard shortcut (e.g., Win + Space) for
    switching between them:
 
+   ```bash
+   setxkbmap -layout "us,pl" -variant ",slaviature" -option "grp:win_space_toggle"
+   ```
+
+   Or (for option 2)
+   
    ```bash
    setxkbmap -layout "us,slav" -option "grp:win_space_toggle"
    ```

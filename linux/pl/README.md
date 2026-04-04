@@ -1,15 +1,26 @@
 
-# Slawiatura — Debian/Linux (XKB)
+# Slawiatura — Linux (XKB)
 
 [![Zobacz na GitHubie](https://img.shields.io/badge/Zobacz%20na%20GitHubie-f2f2f2?style=for-the-badge&logo=github&logoColor=303030&color=f2f2f2)](https://github.com/IS-UMK/Slaviature/blob/master/linux/pl/)
 
-**Slawiatura** umożliwia szybkie wprowadzanie znaków Slawistycznego Alfabetu
-Fonetycznego w środowisku Debian/Linux z wykorzystaniem XKB (ang. *X Keyboard
-Extension*).
+**Slawiatura** umożliwia szybkie wprowadzanie znaków Slawistycznego Alfabetu Fonetycznego w
+środowisku Linux z wykorzystaniem XKB (ang. *X Keyboard Extension*).
 
 ## Instalacja
 
-Przejdź do lokalnego folderu, w którym sklonowałeś/pobrałeś to repozytorium, a następnie skopiuj plik `slav` z:
+*Od wersji xkeyboard-config 2.47 Slawiatura jest częścią systemowej bazy XKB jako wariant układu polskiego.*
+
+### Opcja 1: użycie systemowego układu (zalecane)
+
+Jeśli Twój system zawiera xkeyboard-config 2.47 lub nowszą wersję, włącz ją poleceniem:
+
+```bash
+setxkbmap -layout pl -variant slaviature
+```
+
+### Opcja 2: instalacja ręczna (dla starszych systemów)
+
+Przejdź do lokalnego folderu, w którym znajduje się sklonowane/pobrane repozytorium, a następnie skopiuj plik `slav` z:
 - `linux/usr/share/X11/xkb/symbols/` 
 
 do systemowego folderu:
@@ -43,6 +54,12 @@ sudo cp linux/usr/share/X11/xkb/symbols/slav \
 2. Włącz Slawiaturę
 
    ```bash
+   setxkbmap -layout pl -variant slaviature
+   ```
+
+   Lub (dla opcji 2)
+   
+   ```bash
    setxkbmap slav
    ```
 
@@ -52,9 +69,14 @@ sudo cp linux/usr/share/X11/xkb/symbols/slav \
    setxkbmap pl
    ```
 
-4. Dla ułatwienia korzystania z domyślnej klawiatury i Slawiatury możesz ustawić
-   je jednocześnie i dodać skrót klawiszowy np. 'Win + Space' do przełączania
-   między tymi układami.
+4. Dla ułatwienia korzystania z domyślnej klawiatury i Slawiatury możesz ustawić je jednocześnie i
+   dodać skrót klawiszowy np. 'Win + Space' do przełączania między tymi układami.
+   
+   ```bash
+   setxkbmap -layout "pl,pl" -variant ",slaviature" -option "grp:win_space_toggle"
+   ```
+
+   Lub (dla opcji 2)
 
    ```bash
    setxkbmap -layout "pl,slav" -option "grp:win_space_toggle"
@@ -66,10 +88,9 @@ sudo cp linux/usr/share/X11/xkb/symbols/slav \
    grep 'grp.*toggle' /usr/share/X11/xkb/rules/base.lst
    ```
    
-5. Opcja z przełączaniem klawiatur z wykorzystaniem *setxkbmap* z flagą
-   `-option` może nie działać prawidłowo pod GNOME. W takim przypadku do plików
-   *base.extras.xml* i *evdev.extras.xml*, znajdujących się w katalogu
-   `/usr/share/X11/xkb/rules/`, dodaj:
+5. Opcja z przełączaniem klawiatur z wykorzystaniem *setxkbmap* z flagą `-option` może nie działać
+   prawidłowo pod GNOME. W takim przypadku do plików *base.extras.xml* i *evdev.extras.xml*,
+   znajdujących się w katalogu `/usr/share/X11/xkb/rules/`, dodaj:
    
    ```xml
    <layout>

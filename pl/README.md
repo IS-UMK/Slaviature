@@ -33,7 +33,7 @@ Pełna lista kombinacji klawiszowych znajduje się w dokumentacji: [SlaviatureDo
 
 #### Repozytorium zawiera wersje dla:
 
-- [Debiana/Linuxa](../linux/pl/README.md)
+- [Linuxa](../linux/pl/README.md)
 - [Windowsa](../windows/pl/README.md)
 - [Keymana (dostępny na Windows, macOS, iOS, Linux, Android)](../keyman/pl/README.md)
 

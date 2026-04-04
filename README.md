@@ -34,7 +34,7 @@ The full list of keyboard combinations is available in the documentation: [Slavi
 
 #### This repository contains versions for:
 
-- [Debian/Linux](linux/README.md)
+- [Linux](linux/README.md)
 - [Windows](windows/README.md)
 - [Keyman (available on Windows, macOS, iOS, Linux and Android)](keyman/README.md)
 
